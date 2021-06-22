@@ -5,4 +5,4 @@ Understanding the microbes that colonize and degrade bone has important implicat
 
 Types of data found in this repository:
 
-Qiime2 processing code and notes, R analysis code, metadata, and results necessary for replicating analyses in the submitted paper.
+Qiime2 processing code and notes, R analysis code, metadata, and results (not directly in the paper) necessary for replicating analyses in the submitted paper.
