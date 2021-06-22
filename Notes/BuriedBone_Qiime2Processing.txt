@@ -1,0 +1,135 @@
+#########################
+#Qiime2 workflow: Buried bone samples
+#########################
+
+#import
+##########################
+#import run1 raw_data; will remove primers using denoise
+#data demultiplexed by sequencing center
+qiime tools import \
+  --type 'SampleData[PairedEndSequencesWithQuality]' \
+  --input-path ./raw_data \
+  --source-format CasavaOneEightSingleLanePerSampleDirFmt \
+  --output-path /mnt/e/qiime/Grave/run1.qza
+
+#look at quality or run1
+qiime demux summarize \
+  --i-data run1.qza \
+  --o-visualization run1qualsum.qzv
+
+ #import last two runs and also visualize
+ #import run2
+ qiime tools import \
+  --type 'SampleData[PairedEndSequencesWithQuality]' \
+  --input-path ./raw_data \
+  --source-format CasavaOneEightSingleLanePerSampleDirFmt \
+  --output-path /mnt/e/qiime/Grave/run2.qza
+
+ qiime demux summarize \
+  --i-data run2.qza \
+  --o-visualization run2qualsum.qzv
+
+#run3
+cd /mnt/h/16S_MassGrave/AEmmons3-81599846
+  qiime tools import \
+  --type 'SampleData[PairedEndSequencesWithQuality]' \
+  --input-path ./raw_data \
+  --source-format CasavaOneEightSingleLanePerSampleDirFmt \
+  --output-path /mnt/e/qiime/Grave/run3.qza
+
+ qiime demux summarize \
+  --i-data run3.qza \
+  --o-visualization run3qualsum.qzv
+
+##############################
+#Denoise
+##############################
+#denoise for each run; the following parameters were based on the read quality; the forward primer is 19 bp while the reverse is 20
+#run1
+qiime dada2 denoise-paired \
+  --i-demultiplexed-seqs run1.qza \
+  --o-representative-sequences repseqDada2Run1.qza \
+  --o-table tableDada2Run1.qza \
+  --p-trunc-len-f 245 \
+  --p-trunc-len-r 240 \
+  --p-trim-left-f 19 \
+  --p-trim-left-r 20 \
+  --o-denoising-stats stats-1.qza
+
+#run2
+qiime dada2 denoise-paired \
+  --i-demultiplexed-seqs run2.qza \
+  --o-representative-sequences repseqDada2Run2.qza \
+  --o-table tableDada2Run2.qza \
+  --p-trunc-len-f 245 \
+  --p-trunc-len-r 240 \
+  --p-trim-left-f 19 \
+  --p-trim-left-r 20 \
+  --o-denoising-stats stats-2.qza
+
+#run3
+qiime dada2 denoise-paired \
+  --i-demultiplexed-seqs run3.qza \
+  --o-representative-sequences repseqDada2Run3.qza \
+  --o-table tableDada2Run3.qza \
+  --p-trunc-len-f 245 \
+  --p-trunc-len-r 240 \
+  --p-trim-left-f 19 \
+  --p-trim-left-r 20 \
+  --o-denoising-stats stats-3.qza
+
+#visualize the denoise statistics
+qiime metadata tabulate \
+  --m-input-file stats-1.qza \
+  --o-visualization denoising-stats-1.qzv
+
+qiime metadata tabulate \
+  --m-input-file stats-2.qza \
+  --o-visualization denoising-stats-2.qzv
+
+qiime metadata tabulate \
+  --m-input-file stats-3.qza \
+  --o-visualization denoising-stats-3.qzv
+
+###################################
+#Merge runs
+###################################
+qiime feature-table merge \
+  --i-tables tableDada2Run1.qza \
+  --i-tables tableDada2Run2.qza \
+  --i-tables tableDada2Run3.qza \
+  --o-merged-table table.qza
+
+  qiime feature-table merge-seqs \
+  --i-data repseqDada2Run1.qza \
+  --i-data repseqDada2Run2.qza \
+  --i-data repseqDada2Run3.qza \
+  --o-merged-data rep-seqs.qza
+
+#load metadata
+qiime metadata tabulate \
+  --m-input-file Bone_Samples_meta_071718.txt \
+  --o-visualization tabulated-sample-metadata.qzv
+
+#summarize feature table and rep-seqs
+qiime feature-table summarize \
+  --i-table table.qza \
+  --o-visualization table.qzv \
+  --m-sample-metadata-file Bone_Samples_meta_071718.txt
+qiime feature-table tabulate-seqs \
+  --i-data rep-seqs.qza \
+  --o-visualization rep-seqs.qzv
+
+#assign taxonomy
+#create new temporary directory
+mkdir /mnt/e/new_temp
+export TMPDIR='/mnt/e/new_temp'
+
+qiime feature-classifier classify-sklearn \
+  --i-classifier silva-132-99-515-806-nb-classifier.qza \
+  --i-reads rep-seqs.qza \
+  --o-classification taxonomy.qza \
+
+qiime metadata tabulate \
+  --m-input-file taxonomy.qza \
+  --o-visualization taxonomy.qzv

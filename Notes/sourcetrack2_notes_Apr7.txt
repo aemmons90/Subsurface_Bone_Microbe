@@ -1,0 +1,27 @@
+--source_rarefaction_depth 0
+--sink_rarefaction_depth 0
+
+biom convert -i Otu.st2.txt -o Otu.st2.txt.biom --table-type="OTU table" --to-json
+
+#using source tracker2
+sourcetracker2 gibbs -i Otu.st2.txt -m SourceTrack_A.txt --output_dir ./ST2 --source_rarefaction_depth 0 --sink_rarefaction_depth 0 --jobs 79
+
+
+#maybe it cant find a core bone microbiom; also think about eliminating non-gut samples from AGP
+#make env bone not body_site
+#newest rendition 08082019 includes all samples
+Environements:
+1) Bone_Grave_Anoxic = samples from individual A and B
+2) Bone_Grave_Oxic = samples from individual C
+3) Bone_Surface = SA, SB, SC
+4) Soil = control soils and off-grave soils
+5) Gravesoil = all grave soils
+6) Stool = human gut
+
+Files:
+SourceTrack_08082019.txt > metadata.txt
+otus.all.csv
+total sink = 383
+total source = 60
+
+sourcetracker2 gibbs -i rarefiedOTUtable10k_notG_hdf5.biom -m st_metadata.txt --output_dir ./stAll --source_rarefaction_depth 0 --sink_rarefaction_depth 0 --jobs 383

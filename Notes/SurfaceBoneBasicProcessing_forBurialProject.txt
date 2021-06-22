@@ -1,0 +1,71 @@
+######################
+#Surface bone sequences were previously processed using mothur
+#Redo using DADA2; also trim reads to be the same length as V4 for ASV analysis
+######################
+#import
+######################
+qiime tools import \
+  --type 'SampleData[PairedEndSequencesWithQuality]' \
+  --input-path /lustre/haven/gamma/Emmons1/qiime2SurfGrave/Surface/run1 \
+  --input-format CasavaOneEightSingleLanePerSampleDirFmt \
+  --output-path /lustre/haven/gamma/Emmons1/qiime2SurfGrave/Surface/Srun1.qza
+
+ qiime tools import \
+  --type 'SampleData[PairedEndSequencesWithQuality]' \
+  --input-path /lustre/haven/gamma/Emmons1/qiime2SurfGrave/Surface/run2 \
+  --input-format CasavaOneEightSingleLanePerSampleDirFmt \
+  --output-path /lustre/haven/gamma/Emmons1/qiime2SurfGrave/Surface/Srun2.qza
+
+
+#################
+#Trim with Cutadapt
+#################
+# ~193 bp should be cut
+qiime cutadapt trim-paired \
+  --i-demultiplexed-sequences Srun1.qza \
+  --p-cores 16\
+  --p-front-f GTGYCAGCMGCCGCGGTAA \
+  --p-front-r GGACTACNVGGGTWTCTAAT\
+  --o-trimmed-sequences Srun1.trimmed2.qza\
+  --verbose
+
+  qiime cutadapt trim-paired \
+  --i-demultiplexed-sequences Srun2.qza\
+  --p-cores 16\
+  --p-front-f GTGYCAGCMGCCGCGGTAA \
+  --p-front-r GGACTACNVGGGTWTCTAAT\
+  --o-trimmed-sequences Srun2.trimmed2.qza\
+  --verbose
+
+
+qiime demux summarize \
+  --i-data Srun2.trimmed2.qza \
+  --o-visualization Srun2trim2qualsum.qzv
+
+##################
+#Denoise
+###################
+qiime dada2 denoise-paired \
+  --i-demultiplexed-seqs Srun1.trimmed2.qza \
+  --o-representative-sequences repseqDada2Srun1a.qza \
+  --o-table tableDada2Srun1a.qza \
+  --p-trunc-len-f 106 \
+  --p-trunc-len-r 240\
+  --p-trim-left-f 0 \
+  --p-trim-left-r 0 \
+  --o-denoising-stats stats-run1Sa.qza
+
+qiime dada2 denoise-paired \
+  --i-demultiplexed-seqs Srun2.trimmed2.qza \
+  --o-representative-sequences repseqDada2Srun2trim_b.qza \
+  --o-table tableDada2Srun2trim_b.qza \
+  --p-trunc-len-f 106 \
+  --p-trunc-len-r 240 \
+  --p-trim-left-f 0 \
+  --p-trim-left-r 0 \
+  --o-denoising-stats stats-run2Strim_b.qza
+
+
+qiime metadata tabulate \
+  --m-input-file stats-run2Strim_b.qza \
+  --o-visualization denoising-stats-2Sb.qzv

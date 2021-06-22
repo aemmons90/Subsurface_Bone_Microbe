@@ -1,0 +1,184 @@
+#################
+#Notes on qiime2 processing of AGP DataAnalysis
+#################
+
+#Data was imported, demultiplexed, denoised (using DADA2), and classified using qiime2. A fragment insertion tree was also generated using SEPP.
+#AGP data was downloaded from qiita
+
+
+##################
+#Import and demultiplex AGP Data
+##################
+#At the time, I was unaware that metadata could be used to demultiplex only the samples of interest, so I strangely imported forward, reverse, and barcode files, exported the raw demultiplexed data and reimported. This is completely unnecessary; oh, how I have learned.
+#Please do not do this in the future.
+#the following is example code of what I did; the code for each prep is not shown.
+
+#Initial  import example
+qiime tools import \
+  --type EMPPairedEndSequences \
+  --input-path ./5442_2 \
+  --output-path ./5442_2/5442_2.qza
+
+#initial demux
+qiime demux emp-paired \
+--i-seqs ./5442_2/5442_2.qza \
+--m-barcodes-file 10317_prep_5442.txt \
+--m-barcodes-column barcode \
+--o-per-sample-sequences ./5442_2/demux5442_2.qza \
+--p-rev-comp-mapping-barcodes
+
+#demux summary
+qiime demux summarize \
+  --i-data ./5442_2/demux5442_2.qza \
+  --o-visualization ./5442_2/demux5442_2.qzv
+
+#export demultiplexed sequences
+qiime tools export \
+  --input-path ./demux1158.qza \
+  --output-path ./demultiplexed
+
+#reimport only the samples of interest
+qiime tools import \
+  --type 'SampleData[PairedEndSequencesWithQuality]' \
+  --input-path . \
+  --input-format CasavaOneEightSingleLanePerSampleDirFmt \
+  --output-path ../1158_project.qza
+
+#get quality information
+ qiime demux summarize \
+  --i-data 1158_project.qza \
+  --o-visualization 1158project_qual.qzv
+
+#primers are removed with Earth microbiome data
+#denoise
+#Same parameters used for all preps; 150 paired end data
+ qiime dada2 denoise-paired \
+  --i-demultiplexed-seqs ./1158/1158_project.qza \
+  --o-representative-sequences repseqDada1158.qza \
+  --o-table tableDada1158.qza \
+  --p-trunc-len-f 148 \
+  --p-trunc-len-r 148 \
+  --p-trim-left-f 5 \
+  --p-trim-left-r 5 \
+  --o-denoising-stats denoiseStat-1158.qza
+
+  qiime dada2 denoise-paired \
+  --i-demultiplexed-seqs ./1133/1133_project.qza \
+  --o-representative-sequences repseqDada1133.qza \
+  --o-table tableDada1133.qza \
+  --p-trunc-len-f 148 \
+  --p-trunc-len-r 148 \
+  --p-trim-left-f 5 \
+  --p-trim-left-r 5 \
+  --o-denoising-stats denoiseStat-1133.qza
+
+  qiime dada2 denoise-paired \
+  --i-demultiplexed-seqs ./1130/1130_project.qza \
+  --o-representative-sequences repseqDada1130.qza \
+  --o-table tableDada1130.qza \
+  --p-trunc-len-f 148 \
+  --p-trunc-len-r 148 \
+  --p-trim-left-f 5 \
+  --p-trim-left-r 5 \
+  --o-denoising-stats denoiseStat-1130.qza
+
+  qiime dada2 denoise-paired \
+  --i-demultiplexed-seqs ./1122/1122_project.qza \
+  --o-representative-sequences repseqDada1122.qza \
+  --o-table tableDada1122.qza \
+  --p-trunc-len-f 148 \
+  --p-trunc-len-r 148 \
+  --p-trim-left-f 5 \
+  --p-trim-left-r 5 \
+  --o-denoising-stats denoiseStat-1122.qza
+
+
+  qiime dada2 denoise-paired \
+  --i-demultiplexed-seqs ./1116/1116_project.qza \
+  --o-representative-sequences repseqDada1116.qza \
+  --o-table tableDada1116.qza \
+  --p-trunc-len-f 148 \
+  --p-trunc-len-r 148 \
+  --p-trim-left-f 5 \
+  --p-trim-left-r 5 \
+  --o-denoising-stats denoiseStat-1116.qza
+
+  qiime dada2 denoise-paired \
+  --i-demultiplexed-seqs ./1115/1115_project.qza \
+  --o-representative-sequences repseqDada1115.qza \
+  --o-table tableDada1115.qza \
+  --p-trunc-len-f 148 \
+  --p-trunc-len-r 148 \
+  --p-trim-left-f 5 \
+  --p-trim-left-r 5 \
+  --o-denoising-stats denoiseStat-1115.qza
+
+#visualize denoising stats example
+qiime metadata tabulate \
+  --m-input-file denoiseStat-1115.qza \
+  --o-visualization denoiseStat-1115.qzv
+
+#########################
+#merged all representative sequence files and all tables from AGP, Bone Surface, and Bone buried; final files are as follows:
+#########################
+ FecSurfGravRepSeqs.qza
+ FecSurfGravTable.qza
+
+
+#########################
+#classify
+##########################
+#updated qiime2 and classified rep seqs
+conda activate qiime2-2019.1
+qiime feature-classifier classify-sklearn \
+  --i-classifier silva-132-99-515-806-nb-classifier.qza \ #used  silva 132
+  --i-reads FecSurfGravRepSeqs.qza \
+  --o-classification FecSurfGravTaxonomy.qza \
+  --p-n-jobs -1
+
+#Generate a phylogenetic tree using mafft
+qiime alignment mafft \
+  --i-sequences FecSurfGravRepSeqs.qza \
+  --o-alignment MergedAligned-rep-seqs.qza
+qiime alignment mask \
+  --i-alignment MergedAligned-rep-seqs.qza \
+  --o-masked-alignment masked-MergeAligned-rep-seqs.qza
+qiime phylogeny fasttree \
+  --i-alignment masked-MergeAligned-rep-seqs.qza \
+  --o-tree MergeUnrooted-tree.qza
+qiime phylogeny midpoint-root \
+  --i-tree MergeUnrooted-tree.qza \
+  --o-rooted-tree MergedRooted-tree.qza
+
+#check taxonomy
+qiime metadata tabulate \
+  --m-input-file FecSurfGravTaxonomy.qza \
+  --o-visualization taxonomy.qzv
+
+#Error: here was an issue with viewing the artifact taxonomy.qza as QIIME 2 Metadata:
+  #CategoricalMetadataColumn does not support values with leading or trailing whitespace characters. Column 'Taxon' has the following value: 'D_0__Bacteria;D_1__Chloroflexi;D_2__Anaerolineae;D_3__Anaerolineales;D_4__Anaerolineaceae;D_5__uncultured;D_6__uncultured bacterium '
+#to fix: use https://forum.qiime2.org/t/qiime-taxa-filter-table-error/3947
+
+#filter outmitochondria, chloroplasts, eukaryotes, and unassigned taxa
+qiime taxa filter-table \
+  --i-table FecSurfGravTable.qza \
+  --i-taxonomy taxonomy-without-spaces.qza \
+  --p-exclude mitochondria,chloroplast,eukaryota,Unassigned \
+  --o-filtered-table filteredMerged.qza #file renamed featureTable.qza for github
+
+#Create SEPP tree
+#Used qiime2-2019.10
+qiime phylogeny align-to-tree-mafft-fasttree \
+  --i-sequences FecSurfGravRepSeqs.qza \
+  --o-alignment newtree/aligned-rep-seqs.qza \
+  --o-masked-alignment newtree/masked-aligned-rep-seqs.qza \
+  --o-tree newtree/unrooted-tree.qza \
+  --o-rooted-tree newtree/rooted-tree.qza
+
+#using silva 128 for tree
+qiime fragment-insertion sepp \
+  --i-representative-sequences FecSurfGravRepSeqs.qza \
+  --i-reference-database sepp-refs-silva-128.qza \
+  --o-tree ./newtree/sepptree.qza \
+  --o-placements ./newtree/sepptree_placements.qza \
+  --p-threads 6

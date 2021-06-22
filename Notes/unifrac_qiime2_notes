@@ -1,0 +1,211 @@
+#########################
+#unifrac matrices were generated for analysis in R due to inconsistencies with phyloseq's function and a problem filtering fragment insertion trees and losing the tree root
+#########################
+#convert rarefied table to biom table and import into qiime2; table is merged at genus level
+biom convert -i rarefiedOTUtable10kgenus.txt -o rarefiedOTUtable10k_hdf5.biom --table-type="OTU table" --to-hdf5
+
+#import to qiime2; this has all samples
+qiime tools import \
+  --input-path /Users/alex/Dropbox/UTK/Fecal_compare/FilesforPublication/DataAnalysis/fixedNAanalysis/rarefiedOTUtable10kgenus_hdf5.biom \
+  --type 'FeatureTable[Frequency]' \
+  --input-format BIOMV210Format \
+  --output-path feature-table-rarefy-10k-genus.qza
+
+#calculate distance matrices
+qiime diversity beta-phylogenetic \
+--i-table feature-table-rarefy-10k-genus.qza \
+--i-phylogeny ../newtree/sepptree.qza \
+--p-metric 'weighted_unifrac' \
+--p-n-jobs 4 \
+--o-distance-matrix weighted_unifrac_BuriedBone.qza
+
+qiime diversity beta-phylogenetic \
+--i-table feature-table-rarefy-10k-genus.qza \
+--i-phylogeny ../newtree/sepptree.qza \
+--p-metric ‘unweighted_unifrac'\
+--p-n-jobs 4 \
+--o-distance-matrix unweighted_unifrac_BuriedBone.qza
+
+qiime diversity beta \
+--i-table feature-table-rarefy-10k-genus.qza \
+--p-metric 'braycurtis' \
+--p-n-jobs 4 \
+--o-distance-matrix bray_BuriedBone.qza
+
+qiime feature-table summarize \
+  --i-table ./feature-table-rarefy-10k-genus.qza \
+  --m-sample-metadata-file /Users/alex/Dropbox/UTK/Fecal_compare/MergedTablesFecGraveSurf.txt \
+  --o-visualization ./feature-table-rarefy-10k-genus.qzv
+
+##########do the same at the ASV level for the bone grave data only
+#convert rarefied table to biom table and import into qiime2; table is merged at genus level
+biom convert -i rarefiedOTUtable10kGrave.txt -o rarefiedOTUtable10kGrave_hdf5.biom --table-type="OTU table" --to-hdf5
+
+#import to qiime2
+qiime tools import \
+  --input-path /Users/alex/Dropbox/UTK/Fecal_compare/FilesforPublication/DataAnalysis/fixedNAanalysis/rarefiedOTUtable10kGrave_hdf5.biom \
+  --type 'FeatureTable[Frequency]' \
+  --input-format BIOMV210Format \
+  --output-path feature-table-rarefy-10k-grave.qza
+
+
+#calculate distance matrices
+qiime diversity beta-phylogenetic \
+--i-table feature-table-rarefy-10k-grave.qza \
+--i-phylogeny ../newtree/sepptree.qza \
+--p-metric 'weighted_unifrac' \
+--p-n-jobs 4 \
+--o-distance-matrix weighted_unifrac_BuriedBone_grave.qza
+
+qiime diversity beta-phylogenetic \
+--i-table feature-table-rarefy-10k-grave.qza \
+--i-phylogeny ../newtree/sepptree.qza \
+--p-metric “unweighted_unifrac” \
+--p-n-jobs 4 \
+--o-distance-matrix unweighted_unifrac_BuriedBone_grave.qza
+
+qiime diversity beta \
+--i-table feature-table-rarefy-10k-grave.qza \
+--p-metric 'braycurtis' \
+--p-n-jobs 4 \
+--o-distance-matrix bray_BuriedBone_grave.qza
+
+####bone position comparison
+#convert rarefied table to biom table and import into qiime2; table is merged at genus level
+biom convert -i rarefiedOTUtable10kGraveWpos.txt -o rarefiedOTUtable10kGraveWpos_hdf5.biom --table-type="OTU table" --to-hdf5
+
+qiime tools import \
+  --input-path /Users/alex/Dropbox/UTK/Fecal_compare/FilesforPublication/DataAnalysis/fixedNAanalysis/rarefiedOTUtable10kGraveWpos_hdf5.biom \
+  --type 'FeatureTable[Frequency]' \
+  --input-format BIOMV210Format \
+  --output-path feature-table-rarefy-10k-grave-controls.qza
+
+
+#calculate distance matrices
+qiime diversity beta-phylogenetic \
+--i-table feature-table-rarefy-10k-grave-controls.qza \
+--i-phylogeny ../newtree/sepptree.qza \
+--p-metric 'weighted_unifrac' \
+--p-n-jobs 4 \
+--o-distance-matrix weighted_unifrac_BuriedBone_grave_w_pos.qza
+
+qiime diversity beta-phylogenetic \
+--i-table feature-table-rarefy-10k-grave-controls.qza \
+--i-phylogeny ../newtree/sepptree.qza \
+--p-metric “unweighted_unifrac” \
+--p-n-jobs 4 \
+--o-distance-matrix unweighted_unifrac_BuriedBone_grave_w_control.qza
+
+qiime diversity beta \
+--i-table feature-table-rarefy-10k-grave-controls.qza \
+--p-metric 'braycurtis' \
+--p-n-jobs 4 \
+--o-distance-matrix bray_BuriedBone_grave_w_control.qza
+
+
+
+#get soil unifrac; use the following R object: Soil<-normFGS7 %>% subset_samples(Type == "Soil")
+#need a 7k otu table
+#convert rarefied table to biom table and import into qiime2; table is merged at genus level
+biom convert -i rarefiedOTUtable7kSoil.txt -o rarefiedOTUtable7kSoil_hdf5.biom --table-type="OTU table" --to-hdf5
+
+qiime tools import \
+  --input-path /Users/alex/Dropbox/UTK/Fecal_compare/FilesforPublication/DataAnalysis/fixedNAanalysis/rarefiedOTUtable7kSoil_hdf5.biom \
+  --type 'FeatureTable[Frequency]' \
+  --input-format BIOMV210Format \
+  --output-path feature-table-rarefy-7k-grave-soils.qza
+
+
+#calculate distance matrices
+qiime diversity beta-phylogenetic \
+--i-table feature-table-rarefy-7k-grave-soils.qza \
+--i-phylogeny ../newtree/sepptree.qza \
+--p-metric 'weighted_unifrac' \
+--p-n-jobs 4 \
+--o-distance-matrix weighted_unifrac_gravesoils.qza
+
+qiime diversity beta-phylogenetic \
+--i-table feature-table-rarefy-7k-grave-soils.qza \
+--i-phylogeny ../newtree/sepptree.qza \
+--p-metric “unweighted_unifrac” \
+--p-n-jobs 4 \
+--o-distance-matrix unweighted_unifrac_gravesoils.qza
+
+####for permanova, distance matrix with all bones, surface and subsurface
+biom convert -i rarefiedOTUtable10kAllbone.txt -o rarefiedOTUtable10kAllbonegenus_hdf5.biom --table-type="OTU table" --to-hdf5
+
+qiime tools import \
+  --input-path /Users/alex/Dropbox/UTK/Fecal_compare/FilesforPublication/DataAnalysis/fixedNAanalysis/rarefiedOTUtable10kAllbonegenus_hdf5.biom \
+  --type 'FeatureTable[Frequency]' \
+  --input-format BIOMV210Format \
+  --output-path feature-table-rarefy-10k-bone-genus.qza
+
+
+#calculate distance matrices
+qiime diversity beta-phylogenetic \
+--i-table feature-table-rarefy-10k-bone-genus.qza \
+--i-phylogeny ../newtree/sepptree.qza \
+--p-metric 'weighted_unifrac' \
+--p-n-jobs 4 \
+--o-distance-matrix weighted_unifrac_allbones.qza
+
+####for permanova, distance matrix with all bones from grave with no soils
+biom convert -i rarefiedOTUtable10kAllbonegrave.txt -o rarefiedOTUtable10kAllbonegrave_hdf5.biom --table-type="OTU table" --to-hdf5
+
+qiime tools import \
+  --input-path /Users/alex/Dropbox/UTK/Fecal_compare/FilesforPublication/DataAnalysis/fixedNAanalysis/rarefiedOTUtable10kAllbonegrave_hdf5.biom \
+  --type 'FeatureTable[Frequency]' \
+  --input-format BIOMV210Format \
+  --output-path feature-table-rarefy-10k-bone-asv-grave.qza
+
+
+#calculate distance matrices
+qiime diversity beta-phylogenetic \
+--i-table feature-table-rarefy-10k-bone-asv-grave.qza \
+--i-phylogeny ../newtree/sepptree.qza \
+--p-metric 'weighted_unifrac' \
+--p-n-jobs 4 \
+--o-distance-matrix weighted_unifrac_allbones_grave.qza
+
+
+#####check unifrac for all sample types at ASV level since tree is SEPP
+biom convert -i rarefiedOTUtable10k_notG.txt -o rarefiedOTUtable10k_notG_hdf5.biom --table-type="OTU table" --to-hdf5
+
+qiime tools import \
+  --input-path /Users/alex/Dropbox/UTK/Fecal_compare/FilesforPublication/DataAnalysis/fixedNAanalysis/rarefiedOTUtable10k_notG_hdf5.biom \
+  --type 'FeatureTable[Frequency]' \
+  --input-format BIOMV210Format \
+  --output-path feature-table-rarefy-10k-all-asv.qza
+
+
+#calculate distance matrices
+qiime diversity beta-phylogenetic \
+--i-table feature-table-rarefy-10k-all-asv.qza \
+--i-phylogeny ../newtree/sepptree.qza \
+--p-metric 'weighted_unifrac' \
+--p-n-jobs 4 \
+--o-distance-matrix weighted_unifrac_all_asv.qza
+
+
+qiime feature-table summarize \
+  --i-table ./feature-table-rarefy-10k-all-asv.qza \
+  --m-sample-metadata-file /Users/alex/Dropbox/UTK/Fecal_compare/MergedTablesFecGraveSurf.txt \
+  --o-visualization ./feature-table-rarefy-10k-asv-all.qzv
+
+####for permanova, distance matrix with all bones from grave with no soils at asv level
+biom convert -i rarefiedOTUtable10kAllbone_asv.txt -o rarefiedOTUtable10kAllbone_asv_hdf5.biom --table-type="OTU table" --to-hdf5
+
+qiime tools import \
+  --input-path /Users/alex/Dropbox/UTK/Fecal_compare/FilesforPublication/DataAnalysis/fixedNAanalysis/rarefiedOTUtable10kAllbone_asv_hdf5.biom \
+  --type 'FeatureTable[Frequency]' \
+  --input-format BIOMV210Format \
+  --output-path feature-table-rarefy-10k-bone-asv-Allbone.qza
+
+
+#calculate distance matrices
+qiime diversity beta-phylogenetic \
+--i-table feature-table-rarefy-10k-bone-asv-Allbone.qza \
+--i-phylogeny ../newtree/sepptree.qza \
+--p-metric 'weighted_unifrac' \
+--p-n-jobs 4 \
+--o-distance-matrix weighted_unifrac_allbones_asv.qza
