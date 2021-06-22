@@ -1,0 +1,508 @@
+SampleID	Run	Project	Date Sampled	Type	Individual	Body Site	Bone	Location	Location(SRA)	Residence	Age	Weight	Note	Sex	Bacteria (copies/gbp)	Fungi (copies/gbp)	Total D  (ng/gbp)	Degradation_I_Human	Human (ng/gbp)	Map Type	Depth	Soil.Mass.Ext	X..soil.moisture	gdw	pH	Conductivity	Ammonium..ug.g.dry.weight.soil.	Nitrate.inorga.I1.T46nic..ug.g.dry.weight.	DON..mg.N.L.gdw.	DOC..ug.C.gdw.	Nitrification.potential.mg.NO2.g.dry.weight..day	Microbial.respiration..CO2.released.gdw.day.	PDE.nmols.hr.gdw	PDE.stdev	G.nmols.hr.gdw	G.stdev	CB.nmols.hr.gdw	CB.stdev	LAP.umols.hr.gdw	LAP.stdev	STR	Amelegenin	yindel
+10317.000002260	1133	AmGut		human-skin		Forehead				TN	52	70		female																													
+10317.000007012	1133	AmGut		human-associated		Hair				VA	64	97		male																													
+10317.000003441	1133	AmGut		human-skin		Hand				TN	50	58		female																													
+10317.000014974	1122	AmGut		human-oral		Mouth				AL	69	104		female																													
+10317.000002259	1130	AmGut		human-oral		Mouth				TN	52	70		female																													
+10317.000003440	1130	AmGut		human-oral		Mouth				TN	50	58		female																													
+10317.000002221	1130	AmGut		human-oral		Mouth				GA	60	63		female																													
+10317.000007010	1130	AmGut		human-oral		Mouth				VA	64	97		male																													
+10317.000005911	1130	AmGut		human-oral		Mouth				WA	67	60		Not provided																													
+10317.000002261	1115	AmGut		human-gut		Stool				TN	52	70		female																													
+10317.000002262	1115	AmGut		human-gut		Stool				TN	54	74		male																													
+10317.000003439	1115	AmGut		human-gut		Stool				TN	50	58		female																													
+10317.000001812	1115	AmGut		human-gut		Stool				WA	56	70		female																													
+10317.000001830	1115	AmGut		human-gut		Stool				WA	58	79		male																													
+10317.000002211	1115	AmGut		human-gut		Stool				GA	69	63		female																													
+10317.000002219	1115	AmGut		human-gut		Stool				GA	61	47		female																													
+10317.000002220	1115	AmGut		human-gut		Stool				GA	66	71		male																													
+10317.000001194	1115	AmGut		human-gut		Stool				VA	60	63		female																													
+10317.000001826	1115	AmGut		human-gut		Stool				WA	68	82		female																													
+10317.000002884	1115	AmGut		human-gut		Stool				WA	60	49		female																													
+10317.000001281	1116	AmGut		human-gut		Stool				TN	61	78		female																													
+10317.000001286	1116	AmGut		human-gut		Stool				TN	55	52		female																													
+10317.000004656	1116	AmGut		human-gut		Stool				GA	58	46		female																													
+10317.000001205	1116	AmGut		human-gut		Stool				VA	54	76		female																													
+10317.000001861	1116	AmGut		human-gut		Stool				VA	68	72		male																													
+10317.000002114	1116	AmGut		human-gut		Stool				VA	67	126		male																													
+10317.000004830	1116	AmGut		human-gut		Stool				WA	67	125		male																													
+10317.000004831	1116	AmGut		human-gut		Stool				WA	68	144		female																													
+10317.000005910	1116	AmGut		human-gut		Stool				WA	67	60		Not provided																													
+10317.000013020	1122	AmGut		human-gut		Stool				TN	67	97		male																													
+10317.000014979	1122	AmGut		human-gut		Stool				TN	52	68		male																													
+10317.000014111	1122	AmGut		human-gut		Stool				GA	56	83		male																													
+10317.000001187	1122	AmGut		human-gut		Stool				VA	57	55		female																													
+10317.000010744	1122	AmGut		human-gut		Stool				VA	57	63		male																													
+10317.000010909	1122	AmGut		human-gut		Stool				VA	59	53		female																													
+10317.000007023	1122	AmGut		human-gut		Stool				AL	60	72		male																													
+10317.000002113	1122	AmGut		human-gut		Stool				VA	67	124		male																													
+10317.000003433	1122	AmGut		human-gut		Stool				VA	63	113		female																													
+10317.000009166	1122	AmGut		human-gut		Stool				VA	67	96		male																													
+10317.000013009	1122	AmGut		human-gut		Stool				WA	63	88		male																													
+10317.000009767	1130	AmGut		human-gut		Stool				TN	63	28		female																													
+10317.000002111	1130	AmGut		human-gut		Stool				VA	57	79		Not provided																													
+10317.000002112	1130	AmGut		human-gut		Stool				VA	58	92		male																													
+10317.000001811	1130	AmGut		human-gut		Stool				WA	55	77		male																													
+10317.000002222	1130	AmGut		human-gut		Stool				GA	60	63		female																													
+10317.000002157	1130	AmGut		human-gut		Stool				VA	60	79		female																													
+10317.000006078	1130	AmGut		human-gut		Stool				VA	64	56		female																													
+10317.000007009	1130	AmGut		human-gut		Stool				VA	64	97		male																													
+10317.000004651	1130	AmGut		human-gut		Stool				WA	67	64		female																													
+10317.000005702	1130	AmGut		human-gut		Stool				WA	68	84		female																													
+10317.000005703	1130	AmGut		human-gut		Stool				WA	68	84		female																													
+10317.000006071	1130	AmGut		human-gut		Stool				WA	60	56		female																													
+10317.000009586	1133	AmGut		human-gut		Stool				TN	57	60		female																													
+10317.000009403	1133	AmGut		human-gut		Stool				GA	58	70		male																													
+10317.000009594	1133	AmGut		human-gut		Stool				VA	52	53		female																													
+10317.000003983	1133	AmGut		human-gut		Stool				WA	59	104		male																													
+10317.000005738	1133	AmGut		human-gut		Stool				WA	57	85		female																													
+10317.000009768	1158	AmGut		human-gut		Stool				TN	63	28		female																													
+10317.000022443	1158	AmGut		human-gut		Stool				TN	52	59		female																													
+10317.000022444	1158	AmGut		human-gut		Stool				TN	55	92		male																													
+10317.000022520	1158	AmGut		human-gut		Stool				TN	51	77		male																													
+10317.000026437	1158	AmGut		human-gut		Stool				AL	57	87		male																													
+bone10022	G1	Grave	9/13/17	Bone	A	Arm	Humerus	distal	site1_rep1	WA	68	60		Female	1732547991	434524564.8	1971.45507		2.197343158	FARO	52																						
+bone10023	G1	Grave	9/13/17	Bone	A	Arm	Humerus	distal	site1_rep2	WA	68	60		Female	739877323.6	41718573.28	946.1046991	13.51136546	3.383721923	FARO	52																						
+bone10024	G1	Grave	9/13/17	Bone	A	Arm	Humerus	head	site2_rep1	WA	68	60	high moisture	Female	314162465.4	634126.6309	1206.306678	2.835437232	17.43422821	FARO	49																						
+bone10030	G1	Grave	9/13/17	Bone	A	Arm	Humerus	head	site2_rep2	WA	68	60	high moisture	Female	490376773.6	416091.6358	1725.16488	2.463741947	18.69638264	FARO	49																						
+bone10008	G1	Grave	9/1/17	Bone	A	Arm	Humerus	ms	site3_rep1	WA	68	60		Female	2677127708	442963584.9	3623.866447	2.140603201	1.589644351	FARO	52																						
+bone10009	G1	Grave	9/1/17	Bone	A	Arm	Humerus	ms	site3_rep2	WA	68	60		Female	2005050039	370873737.6	2531.018137	2.919127382	3.268979955	FARO	52																						
+bone10039	G1	Grave	9/14/17	Bone	A	Arm	Radius	distal	site1	WA	68	60		Female	4982291.641	86917071.94	565.1609163		0.454300869	FARO																							
+bone10018	G1	Grave	9/11/17	Bone	A	Arm	Radius	ms	site2	WA	68	60		Female	1606597658	1233255022	2349.649629		0.734676083	FARO																							
+bone10017	G1	Grave	9/11/17	Bone	A	Arm	Ulna	ms	site2	WA	68	60		Female	627017000.4	23027648.31	1330.997527		1.318987459	FARO																							
+bone10040	G1	Grave	9/14/17	Bone	A	Arm	Ulna	proximal	site1	WA	68	60		Female	2483541461	98956422.11	2717.510789	7.371128666	2.24581873	FARO																							
+bone10058	G1	Grave	9/19/17	Bone	A	Foot	1st Cuneiform	facet	site1	WA	68	60		Female	5284951815	1560905261	13685.37046	2.048882921	49.76593331	FARO	44																						
+bone10057	G1	Grave	9/19/17	Bone	A	Foot	1st Cuneiform	non-facet	site2	WA	68	60		Female	6633249025	1432203085	28402.93492	1.507428223	45.10835186	FARO	44																						
+bone10079	G1	Grave	9/25/17	Bone	A	Foot	1st distal foot phalanx			WA	68	60		Female	4791828522	181891940.2	8671.312345	2.657339567	2.897807863	FARO	48																						
+bone10064	G1	Grave	9/19/17	Bone	A	Foot	1st prox foot phalanx			WA	68	60		Female	4980723133	1061895412	21336.67905	1.373264676	11.34148892	FARO	48																						
+bone10059	G1	Grave	9/19/17	Bone	A	Foot	2nd Cuneiform	facet	site1	WA	68	60		Female	8169475023	2605681470	24436.38491	6.476611796	111.0957861	FARO	44																						
+bone10060	G1	Grave	9/19/17	Bone	A	Foot	2nd Cuneiform	non-facet	site2	WA	68	60		Female	14624390800	3022106421	30135.01299	2.446529858	27.86840312	FARO	44																						
+bone10062	G1	Grave	9/19/17	Bone	A	Foot	3rd Cuneiform	facet	site1	WA	68	60		Female	9789316175	1394442184	13917.24456	2.388026592	51.43212155	FARO	44																						
+bone10061	G1	Grave	9/19/17	Bone	A	Foot	3rd Cuneiform	non-facet	site2	WA	68	60	below circular facet	Female	11928790924	385471320.5	20300.76003	2.70046241	35.63893586	FARO	44																						
+bone10020	G1	Grave	9/11/17	Bone	A	Foot	Calcaneus	anterior	site1	WA	68	60		Female	7218672201	2240307928	14452.90602	3.546302737	8.660687134	FARO	44																						
+bone10042	G1	Grave	9/14/17	Bone	A	Foot	Calcaneus	posterior	site2	WA	68	60		Female	7924456194	1677308420	34126.79005	1.747942569	27.28038281	FARO	44																						
+bone10028	G1	Grave	9/12/17	Bone	A	Foot	Cuboid	flat side	site1	WA	68	60		Female	0	838388416.3	29840.89035	1.560222652	8.18619132	FARO	44																						
+bone10056	G1	Grave	9/19/17	Bone	A	Foot	Cuboid	side with concave feature or cuboid tuberosity	site2	WA	68	60		Female	7136862754	861632855.1	38343.46351	2.550430291	60.21827087	FARO	44																						
+bone10047	G1	Grave	9/19/17	Bone	A	Foot	MT1			WA	68	60		Female	2306995181	193184922.2	4308.424759	1.910214852	1.077709952	FARO	45																						
+bone10049	G1	Grave	9/19/17	Bone	A	Foot	MT2	distal	site1	WA	68	60		Female	3698987079	210250423.3	7601.895785	2.738701186	6.152987015	FARO	45																						
+bone10048	G1	Grave	9/19/17	Bone	A	Foot	MT2	proximal	site2	WA	68	60		Female	8235303211	1523261131	17292.83767	2.086938541	29.77743745	FARO	45																						
+bone10051	G1	Grave	9/19/17	Bone	A	Foot	MT3			WA	68	60		Female	10831942033	217677632.9	14894.65831	2.252059216	69.23983246	FARO	45																						
+bone10053	G1	Grave	9/19/17	Bone	A	Foot	MT4	ms/distal		WA	68	60		Female	3058233959	248789247.8	8670.556283	2.293310124	5.650890525	FARO	45																						
+bone10055	G1	Grave	9/19/17	Bone	A	Foot	MT5	distal	site1	WA	68	60		Female	4180254806	657499547.2	15569.88428	1.742689346	7.448342629	FARO	45																						
+bone10054	G1	Grave	9/19/17	Bone	A	Foot	MT5	proximal	site2	WA	68	60		Female	4727349878	1832111373	21494.48226	2.66788076	16.49761572	FARO	45																						
+bone10041	G1	Grave	9/14/17	Bone	A	Foot	Navicular	facet	site1	WA	68	60		Female	8771555426	537240964.8	12180.87253	1.659808339	51.60170794	FARO	44																						
+bone10050	G1	Grave	9/19/17	Bone	A	Foot	Navicular	non-facet	site2	WA	68	60		Female	1642038109	317187303.5	3023.992529	2.407155816	28.57082896	FARO	44																						
+bone10026	G1	Grave	9/12/17	Bone	A	Foot	Talus	facet	site1	WA	68	60		Female	11985464263	9645346451	16984.85161	2.258502245	35.9977521	FARO	44																						
+bone10044	G1	Grave	9/14/17	Bone	A	Foot	Talus	non-facet	site2	WA	68	60		Female	5665643462	1449487589	26849.59315	2.203508379	24.92821589	FARO	44																						
+10082	G3	Grave	3/13/18	Bone	A	Hand	1st distal phalanx		site1	WA	68	60		Female	2883588406	1503771456	2780.807058	2.146788991	29.25	FARO																							
+10083	G3	Grave	3/13/18	Bone	A	Hand	1st distal phalanx		site2	WA	68	60		Female	1409357710	965564619.4	1783.434577	2.492492492	41.5	FARO																							
+bone10078	G1	Grave	9/25/17	Bone	A	Hand	1st prox phalanx			WA	68	60		Female	5590417013	5196080.511	6634.28286	4.085367337	1.677786582	FARO																							
+bone10065	G1	Grave	9/19/17	Bone	A	Hand	Capitate	head		WA	68	60		Female	5929089563	23214900.63	10810.56101	3.017489774	49.17738959	FARO																							
+bone10071	G1	Grave	9/20/17	Bone	A	Hand	MC1			WA	68	60		Female	36134759813	1055256509	34233.06568	2.127252192	0.969873974	FARO																							
+bone10072	G1	Grave	9/20/17	Bone	A	Hand	MC2			WA	68	60		Female	33370600600	2234062628	26753.51568	1.995977951	2.391997958	FARO																							
+bone10073	G1	Grave	9/20/17	Bone	A	Hand	MC3			WA	68	60		Female	9168177888	384460755.7	9010.852996	1.54696238	1.307447092	FARO																							
+bone10074	G1	Grave	9/20/17	Bone	A	Hand	MC4	distal	site1	WA	68	60		Female	14087189531	341581341.8	9775.715482	1.30102779	4.623528104	FARO																							
+bone10076	G1	Grave	9/20/17	Bone	A	Hand	MC4	proximal	site2	WA	68	60		Female	29203006700	575210356.6	23452.52029	1.817301983	8.285160176	FARO																							
+bone10075	G1	Grave	9/20/17	Bone	A	Hand	MC5			WA	68	60		Female	4387357281	11328082.54	3273.388116	2.325832402	2.717841417	FARO																							
+bone10081	G1	Grave	9/25/17	Bone	A	Hand	Middle phalanx			WA	68	60		Female	19196859181	45910944.92	16567.09555	1.568451573	0.69492287	FARO																							
+bone10033	G1	Grave	9/13/17	Bone	A	Leg	Femur	distal	site1_rep1	WA	68	60	high moisture	Female	238561224.7	345980335.5	1077.493817	2.428343999	4.378228448	FARO	52																						
+bone10034	G1	Grave	9/13/17	Bone	A	Leg	Femur	distal	site1_rep2	WA	68	60	high moisture	Female	910864854.9	1213357571	3363.149217	4.147714527	3.658451373	FARO	52																						
+bone10031	G1	Grave	9/13/17	Bone	A	Leg	Femur	head	site2_rep1	WA	68	60	high moisture	Female	14575408763	2313107.888	16507.72877	2.311356153	38.18328306	FARO	48																						
+bone10032	G1	Grave	9/13/17	Bone	A	Leg	Femur	head	site2_rep2	WA	68	60	high moisture	Female	8525158156	484776.736	9563.169827	2.224534231	55.22081628	FARO	48																						
+bone10006	G1	Grave	9/1/17	Bone	A	Leg	Femur	ms	site3_rep1	WA	68	60		Female	641197909.9	22587472.87	884.7897774	1.677659671	10.74085664	FARO	53																						
+bone10007	G1	Grave	9/1/17	Bone	A	Leg	Femur	ms	site3_rep2	WA	68	60		Female	398268683.4	1016149537	665.8079143	1.813178641	10.48105024	FARO	53																						
+bone10001	G1	Grave	7/27/17	Bone	A	Leg	Fibula	ms		WA	68	60	right	Female	1867240285	4827500426	2953.009068	1.774179721	2.336418955	FARO	53																						
+bone10046	G1	Grave	9/14/17	Bone	A	Leg	Patella	anterior	site1	WA	68	60		Female	7733395779	1683509671	15107.74631	1.888811249	45.07219419	FARO																							
+bone10012	G1	Grave	9/11/17	Bone	A	Leg	Patella	posterior	site2	WA	68	60		Female	8797639982	2878158857	10916.68957	2.754582448	3.753212901	FARO																							
+bone10004	G1	Grave	9/1/17	Bone	A	Leg	Tibia	ms	site3_rep1	WA	68	60		Female	839772720.4	376782593.4	1249.587799	0.867651827	10.64392459	FARO	52																						
+bone10005	G1	Grave	9/1/17	Bone	A	Leg	Tibia	ms	site3_rep2	WA	68	60		Female	1224038560	703853582.5	1604.080791	1.114789507	11.16654556	FARO	52																						
+bone10035	G1	Grave	9/14/17	Bone	A	Leg	Tibia	proximal/posterior metaphysis	site1_rep1	WA	68	60	high moisture	Female	13204229019	1073625345	24659.0066	2.604920555	4.703189246	FARO	52																						
+bone10036	G1	Grave	9/14/17	Bone	A	Leg	Tibia	proximal/posterior metaphysis	site1_rep2	WA	68	60	high moisture	Female	16960129869	1737405062	22298.12448	4.360230467	2.960430458	FARO	52																						
+bone10037	G1	Grave	9/14/17	Bone	A	Leg	Tibia	sup articular facet (left)	site2_rep1	WA	68	60	high moisture	Female	18649083094	503806743.7	42370.12903	3.009930849	8.355510421	FARO	52																						
+bone10038	G1	Grave	9/14/17	Bone	A	Leg	Tibia	sup articular facet (left)	site2_rep2	WA	68	60	high moisture	Female	8303964719	330878204.1	19840.76905	2.552141975	7.996763103	FARO	52																						
+bone10010	G1	Grave	9/2/17	Bone	A	Lower Torso	Ilium			WA	68	60		Female	71179412.77	3647785574	2905.090684	6.464561265	23.42788689	FARO	44																						
+bone10011	G1	Grave	9/2/17	Bone	A	Lower Torso	Ischium			WA	68	60		Female	6529974148	2430428503	6591.199505	1.94823713	31.27865866	FARO	45																						
+bone10013	G1	Grave	9/2/17	Bone	A	Lower Torso	Lumbar			WA	68	60		Female	33024192731	1985115511	26945.6925	4.195824341	22.08095603	FARO	44																						
+bone10016	G1	Grave	9/11/17	Bone	A	Lower Torso	Pubis			WA	68	60		Female	5466664304	158318194.9	7606.244847	2.14906861	43.61220449	FARO	50																						
+bone10080	G1	Grave	9/25/17	Bone	A	Lower Torso	Rib 12			WA	68	60		Female	1217433182	4921579.034	3637.361853	3.745090677	55.03096804	FARO	44																						
+bone10002	G1	Grave	7/27/17	Bone	A	Lower Torso	Sacrum	ala		WA	68	60		Female	6356714308	145569836.8	11862.73702	5.350253133	10.56248788	FARO	45																						
+bone10014	G1	Grave	9/11/17	Bone	A	Lower Torso	Thoracic			WA	68	60		Female	6300352609	17605490300	9215.375103	4.168426682	78.56798172	FARO	45																						
+bone10070	G1	Grave	9/20/17	Bone	A	Skull	Frontal			WA	68	60		Female	7710034137	48098767.64	4730.306804	2.981390993	2.128032269	FARO	51																						
+bone10029	G1	Grave	9/12/17	Bone	A	Skull	Mandible			WA	68	60		Female	3922158068	22429888.23	3545.548228		0.880520616	FARO	53																						
+bone10068	G1	Grave	9/20/17	Bone	A	Skull	Maxilla			WA	68	60	dirty	Female	13659326763	1118109738	27703.38421	4.361218992	4.720837858	FARO																							
+bone10066	G1	Grave	9/20/17	Bone	A	Skull	Occipital			WA	68	60	dirty	Female	8600810591	1180911896	14499.61354		3.47571075	FARO	46																						
+bone10069	G1	Grave	9/20/17	Bone	A	Skull	Parietal			WA	68	60		Female	905716761.4	44064821.51	1509.296434	1.655998611	2.058431972	FARO	48																						
+bone10067	G1	Grave	9/20/17	Bone	A	Skull	Temporal			WA	68	60		Female	2954038525	356140208.2	8290.540395	1.570670375	11.67539414	FARO	49																						
+bone10025	G1	Grave	9/12/17	Bone	A	Upper Torso	Cervical	centrum	site1	WA	68	60		Female	35495240225	18054181181	34203.00907	2.667617559	3.826107597	FARO	51																						
+bone10043	G1	Grave	9/14/17	Bone	A	Upper Torso	Cervical	side centrum	site2	WA	68	60	C3 side of centrum	Female	11394258434	310155727.5	20184.82298	2.681467974	8.217116818	FARO	51																						
+bone10045	G1	Grave	9/14/17	Bone	A	Upper Torso	Clavicle	ms	site1	WA	68	60		Female	219787415.8	69805637.73	762.146553		0.820317073	FARO	50																						
+bone10019	G1	Grave	9/11/17	Bone	A	Upper Torso	Clavicle	proximal	site2	WA	68	60		Female	705093577.4	4047748961	741.5498763	1.672372636	22.27587253	FARO	50																						
+bone10027	G1	Grave	9/12/17	Bone	A	Upper Torso	Rib 1	distal	site1	WA	68	60		Female	2490814632	1204395176	4768.755153	2.111937166	12.21501734	FARO	49																						
+bone10063	G1	Grave	9/19/17	Bone	A	Upper Torso	Rib 1	head	site2	WA	68	60		Female	782505749.8	4606675.796	3298.269532	3.962272988	18.6185129	FARO																							
+bone10021	G1	Grave	9/11/17	Bone	A	Upper Torso	Rib 7	center	site1	WA	68	60		Female	2164416027	40216090.57	2407.357791	2.482038678	72.51670957	FARO	43																				40	1	
+bone10077	G1	Grave	9/20/17	Bone	A	Upper Torso	Rib 7	head	site2	WA	68	60		Female	836646424.1	12808995.49	1138.483341	3.226990059	7.429580204	FARO																							
+bone10015	G1	Grave	9/11/17	Bone	A	Upper Torso	Scapula			WA	68	60		Female	30777390581	1981827806	27120.87799	1.581034175	38.17909956	FARO	43																						
+bone10003	G1	Grave	7/27/17	Bone	A	Upper Torso	Sternum	manubrium		WA	68	60		Female	2500496675	659908.3648	4820.280297	2.298910221	101.3881788	FARO																							
+bone20062	G2	Grave	10/18/17	Bone	B	Arm	Humerus	distal	site1_rep1	VA	63	70		Male	1068022881	896226588.8	1715.966321	11.30336258	7.159323432	FARO	55																						
+bone20063	G2	Grave	10/18/17	Bone	B	Arm	Humerus	distal	site1_rep2	VA	63	70		Male	945332628.2	768699560.8	1732.179757	13.69164827	6.227280013	FARO	55																						
+bone20068	G2	Grave	11/1/17	Bone	B	Arm	Humerus	head	site2_rep1	VA	63	70		Male	11075690120	1456721454	12247.51439	6.513192992	8.38749297	FARO	53																						
+bone20068R	G2	Grave	11/1/17	Bone	B	Arm	Humerus	head	site2_rep2	VA	63	70		Male	10210081616	2163996451	9289.340469	5.529167787	10.19213162	FARO	53																						
+20061	G3	Grave	10/18/17	Bone	B	Arm	Humerus	ms	site3_rep1	VA	63	70		Male	330469069.6	1335219201	595.0245878	10.63909774	7.075	FARO	55																						
+bone20060	G2	Grave	10/18/17	Bone	B	Arm	Humerus	ms	site3_rep2	VA	63	70		Male	603906683.4	1534397816	1007.047813	13.13818798	10.1008229	FARO	55																						
+bone20067	G2	Grave	10/23/17	Bone	B	Arm	Radius	distal	site1	VA	63	70		Male	15500597244	57654244.09	12782.37968	4.232647098	4.089361988	FARO	53																						
+bone20066	G2	Grave	10/23/17	Bone	B	Arm	Radius	ms	site2	VA	63	70		Male	7624683606	52504175.18	5651.885061	8.118592182	8.494986221	FARO	55																						
+bone20065	G2	Grave	10/23/17	Bone	B	Arm	Ulna	proximal	site1	VA	63	70		Male	16507966631	2149356470	12516.35097		3.264514497	FARO	53																						
+bone20064	G2	Grave	10/23/17	Bone	B	Arm	Ulna	ms	site2	VA	63	70		Male	5356825680	1126509348	4189.913007	1.379049435	3.873439971	FARO	53																						
+bone20028	G2	Grave	10/2/17	Bone	B	Foot	1st Cuneiform	facet	site1	VA	63	70		Male	28474448938	434207840.3	39835.92635	3.892328295	36.51391342	FARO	46																						
+bone20029	G2	Grave	10/2/17	Bone	B	Foot	1st Cuneiform	non-facet	site2	VA	63	70	dirty	Male	17265427875	530515006.9	52311.94986	3.006705901	53.29502746	FARO	46																						
+bone20042	G2	Grave	10/2/17	Bone	B	Foot	1st distal foot phalanx			VA	63	70		Male	6679767316	469037684.8	40115.30431		11.38798892	FARO	46																						
+bone20041	G2	Grave	10/2/17	Bone	B	Foot	1st prox foot phalanx			VA	63	70		Male	13494275044	758911347.6	34017.60332	45.55488065	18.40652339	FARO	46																						
+bone20070	G2	Grave	11/1/17	Bone	B	Foot	2nd Cuneiform	facet	site1	VA	63	70		Male	13250353657	170186159	24877.3827	4.679894486	75.91962814	FARO	46																						
+bone20030	G2	Grave	10/2/17	Bone	B	Foot	2nd Cuneiform	non-facet	site2	VA	63	70		Male	23100026006	451378378.4	44267.29023	8.227729596	37.15222329	FARO	46																						
+bone20031	G2	Grave	10/2/17	Bone	B	Foot	3rd Cuneiform	facet	site1	VA	63	70		Male	12802928006	479106766.8	24184.43398	6.763834954	50.56649074	FARO	46																						
+bone20032	G2	Grave	10/2/17	Bone	B	Foot	3rd Cuneiform	non-facet	site2	VA	63	70		Male	11238557192	534161407.8	33045.91533	12.37334284	62.04243004	FARO	46																						
+bone20018	G2	Grave	9/30/17	Bone	B	Foot	Calcaneus	anterior	site1	VA	63	70		Male	25507411638	468944225.6	31565.97406	6.461488855	12.70951889	FARO	46																						
+bone20019	G2	Grave	9/30/17	Bone	B	Foot	Calcaneus	posterior	site2	VA	63	70		Male	32419459888	610164079.8	27994.03572	3.818125455	78.71278375	FARO	46																						
+bone20025	G2	Grave	9/30/17	Bone	B	Foot	Cuboid	flat side	site1	VA	63	70		Male	11006247199	283966132.9	12837.1294	6.825822289	9.101766162	FARO	46																						
+bone20024	G2	Grave	9/30/17	Bone	B	Foot	Cuboid	part facet/non-facet	site2	VA	63	70		Male	12987943344	330594884.1	12294.2274	5.271116711	24.20696616	FARO	46																						
+bone20033	G2	Grave	10/2/17	Bone	B	Foot	MT1			VA	63	70		Male	12556896670	559264007.8	23073.53408		3.84644419	FARO	46																						
+bone20035	G2	Grave	10/2/17	Bone	B	Foot	MT2	distal	site1	VA	63	70		Male	9676674932	327095150.4	16787.19362	5.929143188	7.941484451	FARO	46																						
+bone20034	G2	Grave	10/2/17	Bone	B	Foot	MT2	proximal	site2	VA	63	70		Male	7207486814	470312027.9	17493.87579	3.721209046	33.88591856	FARO	46																						
+bone20036	G2	Grave	10/2/17	Bone	B	Foot	MT3			VA	63	70		Male	9305517462	468849733.1	16866.58355	2.769377339	38.58339041	FARO	46																						
+bone20038	G2	Grave	10/2/17	Bone	B	Foot	MT4	ms/distal	site1	VA	63	70		Male	8995683551	686312884.8	13177.18825	3.239880988	11.13984268	FARO	46																						
+bone20037	G2	Grave	10/2/17	Bone	B	Foot	MT4	proximal	site2	VA	63	70	dirty	Male	13491398288	1028820311	29134.56369	5.28084103	44.84176636	FARO	46																						
+bone20040	G2	Grave	10/2/17	Bone	B	Foot	MT5	distal	site1	VA	63	70		Male	10451295913	525446366.2	15691.94807	2.792652184	9.270344861	FARO	46																						
+bone20039	G2	Grave	10/2/17	Bone	B	Foot	MT5	proximal	site2	VA	63	70		Male	14872847381	1352995089	27114.03413	9.025421212	30.73676303	FARO	46																						
+bone20026	G2	Grave	10/2/17	Bone	B	Foot	Navicular	facet	site1	VA	63	70		Male	28947935731	386216270.7	31135.7306	5.513449911	64.83024359	FARO	46																						
+bone20027	G2	Grave	10/2/17	Bone	B	Foot	Navicular	non-facet	site2	VA	63	70		Male	24837452356	282185993.6	27920.11949	6.255605411	37.33022138	FARO	46																						
+bone20020	G2	Grave	9/30/17	Bone	B	Foot	Talus	facet	site1	VA	63	70		Male	655709329.4	106025502.5	1379.09343	4.415397446	36.78835183	FARO	46																						
+bone20021	G2	Grave	9/30/17	Bone	B	Foot	Talus	non-facet	site2	VA	63	70		Male	1020576680	316086982.1	1561.080299	5.776607693	47.54392803	FARO	46																						
+20080	G3	Grave	3/13/18	Bone	B	Hand	1st distal phalanx		site1	VA	63	70		Male	4272070087	249034045.3	9399.623951	1.663716814	94	FARO																							
+20081	G3	Grave	3/13/18	Bone	B	Hand	1st distal phalanx		site2	VA	63	70		Male	6685491563	326152677.9	12479.12448	1.8046875	57.75	FARO																							
+bone20016	G2	Grave	9/30/17	Bone	B	Hand	1st prox phalanx			VA	63	70		Male	53369975813	665713543.4	34489.4886	10.87689705	63.56931478	FARO																							
+bone20009	G2	Grave	9/26/17	Bone	B	Hand	Capitate			VA	63	70		Male	15240980844	18718127.22	10564.5875	1.598413114	37.04319894	FARO	48																						
+bone20010	G2	Grave	9/26/17	Bone	B	Hand	MC1	proximal		VA	63	70		Male	46137569994	2095296014	37133.65075	3.326764517	23.33035506	FARO																							
+bone20011	G2	Grave	9/26/17	Bone	B	Hand	MC2	distal		VA	63	70		Male	35238349513	1120758707	38919.36503	2.632670869	42.20942408	FARO																							
+bone20012	G2	Grave	9/26/17	Bone	B	Hand	MC3	distal		VA	63	70		Male	16036263563	448712847.1	8207.934016		0.476833404	FARO																							
+bone20015	G2	Grave	9/30/17	Bone	B	Hand	MC4	distal	site1	VA	63	70		Male	16532974525	211414141.8	15174.9215	2.424094228	9.129259735	FARO																							
+bone20013	G2	Grave	9/26/17	Bone	B	Hand	MC4	proximal	site2	VA	63	70	medullary cavity	Male	12150566976	59754484.29	11979.19131		0.640665472	FARO																							
+bone20014	G2	Grave	9/26/17	Bone	B	Hand	MC5			VA	63	70		Male	17741146450	43549771.29	7966.304392	1.368605821	5.372066982	FARO																							
+bone20017	G2	Grave	9/30/17	Bone	B	Hand	Middle phalanx			VA	63	70		Male	21742164988	702993488.6	28796.4092	2.253992603	2.290454926	FARO																							
+bone20050	G2	Grave	10/5/17	Bone	B	Leg	Femur	distal	site1_rep1	VA	63	70		Male	6488711884	167084758.6	13743.54034	4.74693532	6.624150556	FARO	48																						
+bone20051	G2	Grave	10/5/17	Bone	B	Leg	Femur	distal	site1_rep2	VA	63	70		Male	8385693547	167853057	14985.82498	8.314610289	4.16388642	FARO	48																						
+bone20054	G2	Grave	10/5/17	Bone	B	Leg	Femur	head	site2_rep1	VA	63	70	high moisture	Male	8237531970	98875062.87	18359.8969	20.6849468	8.265870623	FARO	36																						
+bone20055	G2	Grave	10/5/17	Bone	B	Leg	Femur	head	site2_rep2	VA	63	70	high moisture	Male	10105357983	180725739.1	22298.64366	30.95321462	13.59049883	FARO	36																						
+bone20052	G2	Grave	10/5/17	Bone	B	Leg	Femur	ms	site3_rep1	VA	63	70		Male	1262757472	1416236151	1960.845111	1.986550219	7.522610482	FARO	44																						
+bone20053	G2	Grave	10/5/17	Bone	B	Leg	Femur	ms	site3_rep2	VA	63	70		Male	1835829804	2086955353	2962.723634	2.09365572	8.643356152	FARO	44																						
+bone20049	G2	Grave	10/5/17	Bone	B	Leg	Fibula	ms		VA	63	70		Male	4905636221	245233376.5	4896.595178	1.733590917	4.38299682	FARO	49																						
+bone20023	G2	Grave	9/30/17	Bone	B	Leg	Patella	anterior	site1	VA	63	70		Male	4985378751	155189630.4	4666.581705	3.057690824	40.0807187	FARO	49																						
+bone20022	G2	Grave	9/30/17	Bone	B	Leg	Patella	posterior	site2	VA	63	70		Male	9618610623	3460500343	34441.57049	6.049220878	22.03714848	FARO	49																						
+bone20043	G2	Grave	10/3/17	Bone	B	Leg	Tibia	ms	site3_rep1	VA	63	70		Male	1007752487	285381974.4	1715.407237	2.804520836	13.5124214	FARO	49																						
+bone20044	G2	Grave	10/3/17	Bone	B	Leg	Tibia	ms	site3_rep2	VA	63	70		Male	370032186.9	95598415.29	491.5723678	1.826897746	28.85894291	FARO	49																						
+bone20045	G2	Grave	10/3/17	Bone	B	Leg	Tibia	proximal/posterior metaphysis	site1_rep1	VA	63	70		Male	41245462450	1266957436	40510.24577	5.713347686	8.142475039	FARO	48																						
+bone20046	G2	Grave	10/3/17	Bone	B	Leg	Tibia	proximal/posterior metaphysis	site1_rep2	VA	63	70		Male	39664130175	1345792351	42043.25409	7.094549856	7.053318899	FARO	48																						
+bone20047	G2	Grave	10/3/17	Bone	B	Leg	Tibia	sup articular facet (left)	site2_rep1	VA	63	70	high moisture	Male	17750196500	174507683.2	25366.89664	14.11832371	6.573185325	FARO	48																						
+bone20048	G2	Grave	10/3/17	Bone	B	Leg	Tibia	sup articular facet (left)	site2_rep2	VA	63	70	high moisture	Male	11813646788	284204206.1	20649.90496	20.77856879	26.71356685	FARO	48																						
+bone20059	G2	Grave	10/18/17	Bone	B	Lower Torso	Ilium			VA	63	70		Male	7945505505	39854512.91	13267.20078	2.263684778	30.27533367	FARO	37																						
+bone20058	G2	Grave	10/18/17	Bone	B	Lower Torso	Ischium			VA	63	70		Male	5974676588	905037669.6	18632.7299	1.82066644	31.73859417	FARO	34																						
+bone20008	G1	Grave	9/26/17	Bone	B	Lower Torso	Lumbar			VA	63	70		Male	15961898900	29201005.15	20338.86261		0.988167711	FARO	40																						
+bone20057	G2	Grave	10/18/17	Bone	B	Lower Torso	Pubis			VA	63	70		Male	13261643400	3148275087	33269.54893	1.976217088	7.750106975	FARO	39																						
+bone20005	G1	Grave	9/26/17	Bone	B	Lower Torso	Rib 12	11		VA	63	70		Male	7165656145	261185529.7	12757.60573	1.943459836	6.362342276	FARO	42																						
+bone20056	G2	Grave	10/18/17	Bone	B	Lower Torso	Sacrum	ala	samp1	VA	63	70	dirty	Male	11299772169	634213093.1	51315.14894	4.991710944	4.239349626	FARO	39																						
+bone20069	G2	Grave	11/1/17	Bone	B	Lower Torso	Sacrum	ala	samp2	VA	63	70		Male	6659925206	894140164.6	31913.97948		2.315139165	FARO	39																						
+bone20075	G2	Grave	11/8/17	Bone	B	Lower Torso	Thoracic			VA	63	70		Male	4758260256	44025579.34	13279.18926	15.66915854	10.8084362	FARO	42																						
+bone20074	G2	Grave	11/1/17	Bone	B	Skull	Frontal			VA	63	70		Male	2506040333	442372628.3	2277.958962		0.915555982	FARO	54																						
+bone20078	G2	Grave	11/8/17	Bone	B	Skull	Mandible			VA	63	70		Male	4996045966	184954588	4707.790475	9.858897892	9.41920653	FARO	56																						
+bone20079	G2	Grave	11/8/17	Bone	B	Skull	Maxilla			VA	63	70	dirty	Male	11494156429	724870316.9	23901.1155	1.948309597	7.091941998	FARO																							
+bone20071	G2	Grave	11/1/17	Bone	B	Skull	Occipital			VA	63	70		Male	3345353143	1123104952	9791.617316	45.44424236	33.56639668	FARO	44																						
+bone20073	G2	Grave	11/1/17	Bone	B	Skull	Parietal			VA	63	70		Male	12100034447	766922054.2	20456.60189	2.550162338	3.148851916	FARO	46																						
+bone20072	G2	Grave	11/1/17	Bone	B	Skull	Temporal			VA	63	70		Male	5483371548	780327593.4	9107.135708	1.69273336	5.971680861	FARO	47																						
+bone20002	G1	Grave	9/26/17	Bone	B	Upper Torso	Clavicle	ms	site1	VA	63	70		Male	8292653031	7219955.754	11513.26414	3.111988839	10.21421421	FARO	51																						
+bone20003	G1	Grave	9/26/17	Bone	B	Upper Torso	Clavicle	proximal	site2	VA	63	70		Male	8620990589	10924423.97	8620.335631	2.577169861	1.687875949	FARO	50																						
+bone20077	G2	Grave	11/8/17	Bone	B	Upper Torso	Rib 1	distal	site1	VA	63	70		Male	28935246886	12707181763	38200.42615	3.991406464	12.38677481	FARO	49																						
+bone20076	G2	Grave	11/8/17	Bone	B	Upper Torso	Rib 1	head	site2	VA	63	70		Male	3751682292	275174458.7	3113.620819	2.653754588	17.4044054	FARO																							
+bone20006	G1	Grave	9/26/17	Bone	B	Upper Torso	Rib 7	center	site1	VA	63	70		Male	13826257288	33895088.26	13970.34175	1.560833195	9.905082174	FARO	43																						
+bone20007	G1	Grave	9/26/17	Bone	B	Upper Torso	Rib 7	head	site2	VA	63	70		Male	9088532949	212351000.3	16683.83223	1.729452877	39.54863548	FARO																							
+bone20001	G1	Grave	9/26/17	Bone	B	Upper Torso	Scapula			VA	63	70		Male	8564280497	51169907.42	6141.847804	2.852773117	5.435795989	FARO	46																						
+bone20004	G1	Grave	9/26/17	Bone	B	Upper Torso	Sternum	manubrium		VA	63	70		Male	15722443681	86778739.57	23232.81065	5.825609419	1.791496878	FARO																							
+30037	G3	Grave	12/6/17	Bone	C	Arm	Humerus	distal	site1_rep1	GA/AL	63	52		Male	3602536779	34631806.08	7538.418079	0.93256463	0.794910302	HM	48																						
+30038	G3	Grave	12/6/17	Bone	C	Arm	Humerus	distal	site1_rep2	GA/AL	63	52	medullary cavity	Male	7540307581	188375755.2	15151.95567	1.606336077	1.204454922	HM	48																						
+30039	G3	Grave	12/6/17	Bone	C	Arm	Humerus	head	site2_rep1	GA/AL	63	52		Male	5120170979	160186923.8	22186.94046	1.083080502	11.96252182	HM	53																						
+30040	G3	Grave	12/6/17	Bone	C	Arm	Humerus	head	site2_rep2	GA/AL	63	52		Male	5147114102	188143154.1	17615.55845	1.221329715	23.66176365	HM	53																						
+30035	G3	Grave	12/6/17	Bone	C	Arm	Humerus	ms	site3_rep1	GA/AL	63	52		Male	4257071218	7494044.476	7359.691439	1.041305609	1.75098714	HM																							
+30036	G3	Grave	12/6/17	Bone	C	Arm	Humerus	ms	site3_rep2	GA/AL	63	52		Male	4270094095	18562016.49	7630.769231	1.125231858	1.342760709	HM																							
+30042	G3	Grave	12/6/17	Bone	C	Arm	Radius	distal	site1	GA/AL	63	52		Male	3289970824	692804418.1	18197.37071	1.12320594	5.337299779	HM																							
+30041	G3	Grave	12/6/17	Bone	C	Arm	Radius	ms	site2	GA/AL	63	52		Male	3083787884	28584716.64	5663.146458	1.310255689	1.16314739	HM																							
+30044	G3	Grave	12/6/17	Bone	C	Arm	Ulna	ms	site2	GA/AL	63	52		Male	3292574218	135339924.4	7942.590178	2.138157891	0.820600406	HM																							
+30043	G3	Grave	12/6/17	Bone	C	Arm	Ulna	proximal	site1	GA/AL	63	52		Male	3483296111	29056937.04	5370.338983	2.040202386	0.982356141	HM																							
+bone30014	G2	Grave	11/10/17	Bone	C	Foot	1st Cuneiform	facet	site1	GA/AL	63	52		Male	5999318468	1147759195	12803.75344	1.706693284	274.9947011	HM	39																						
+bone30015	G2	Grave	11/10/17	Bone	C	Foot	1st Cuneiform	non-facet	site2	GA/AL	63	52		Male	3776039746	1891190251	16555.10885	1.396456619	218.1268036	HM	39																						
+30029	G3	Grave	11/30/17	Bone	C	Foot	1st distal foot phalanx			GA/AL	63	52	bone broke	Male	2594924.211	0	31497.02303	0.968032904	8.122502875	HM	39																						
+30028	G3	Grave	11/30/17	Bone	C	Foot	1st prox foot phalanx			GA/AL	63	52		Male	0	0	24130.66058	1.813819236	13.28293886	HM	39																						
+bone30016	G2	Grave	11/14/17	Bone	C	Foot	2nd Cuneiform	facet	site1	GA/AL	63	52		Male	3932324137	511902533.3	8795.91292	1.31297419	232.6596975	HM	39																						
+bone30017	G2	Grave	11/14/17	Bone	C	Foot	2nd Cuneiform	non-facet	site2	GA/AL	63	52		Male	3216071669	417903592.3	10499.03662	1.563400484	312.1489882	HM	39																						
+bone30012	G2	Grave	11/10/17	Bone	C	Foot	3rd Cuneiform	facet	site1	GA/AL	63	52		Male	1108486850	76644180.19	2051.18859	1.321417144	149.6984512	HM	39																						
+bone30013	G2	Grave	11/10/17	Bone	C	Foot	3rd Cuneiform	non-facet	site2	GA/AL	63	52		Male	1323067354	316937085.8	3460.81408	1.490315807	211.947903	HM	39																						
+bone30002	G2	Grave	11/8/17	Bone	C	Foot	Calcaneus	anterior	site1	GA/AL	63	52	knocked over powder	Male	43547253.49	28504113.73	13439.75311	1.519078012	48.95091057	HM	39																						
+bone30001	G2	Grave	11/8/17	Bone	C	Foot	Calcaneus	posterior	site2	GA/AL	63	52		Male	4218670730	342137442.6	32683.43482	1.244393587	75.97204298	HM	39																						
+bone30018	G2	Grave	11/14/17	Bone	C	Foot	Cuboid	flat side	site1	GA/AL	63	52		Male	1051867690	270142128.1	13374.58921	1.152661533	75.78705251	HM	39																						
+bone30019	G2	Grave	11/14/17	Bone	C	Foot	Cuboid	opposite side	site2	GA/AL	63	52		Male	2610324527	790204362.1	14735.21144	1.882408279	222.6151526	HM	39																						
+bone30020	G2	Grave	11/14/17	Bone	C	Foot	MT1			GA/AL	63	52		Male	1752251874	806196256	9699.866544	1.267386585	4.775857087	HM																							
+bone30021	G2	Grave	11/14/17	Bone	C	Foot	MT2	distal	site1	GA/AL	63	52		Male	3473489442	300899838.6	7967.954752	1.361132233	45.48485435	HM																							
+bone30022	G2	Grave	11/14/17	Bone	C	Foot	MT2	proximal	site2	GA/AL	63	52		Male	3037385111	497079660.8	17231.77079	1.555969281	260.866642	HM																							
+30023	G3	Grave	11/15/17	Bone	C	Foot	MT3			GA/AL	63	52		Male	2349438661	319130625.1	10022.03687	1.236617356	76.9065693	HM																							
+30025	G3	Grave	11/15/17	Bone	C	Foot	MT4	ms/distal	site1	GA/AL	63	52		Male	1082241011	164997658.9	14889.02651	0.970293955	85.01964808	HM																							
+30024	G3	Grave	11/15/17	Bone	C	Foot	MT4	proximal	site2	GA/AL	63	52		Male	1413066127	149218784.8	21993.00304	1.222234132	161.4974226	HM																							
+30027	G3	Grave	11/30/17	Bone	C	Foot	MT5	distal	site1	GA/AL	63	52		Male	974147257.6	103719657.4	11888.15732	1.130530155	7.139389403	HM																							
+30026	G3	Grave	11/30/17	Bone	C	Foot	MT5	proximal	site2	GA/AL	63	52		Male	9287514.007	1648601.585	20562.64668	1.239590634	19.01523769	HM																							
+bone30010	G2	Grave	11/10/17	Bone	C	Foot	Navicular	facet	site1	GA/AL	63	52		Male	4634893396	1749630299	18226.95387	1.73413632	299.4518578	HM	39																						
+bone30011	G2	Grave	11/10/17	Bone	C	Foot	Navicular	non-facet	site2	GA/AL	63	52		Male	4180450899	727151245.4	12221.44883	1.399407137	173.1147021	HM	39																						
+bone30003	G2	Grave	11/8/17	Bone	C	Foot	Talus	facet	site1	GA/AL	63	52		Male	2507900791	1228199438	17193.71507	2.089080039	236.5630418	HM	39																						
+bone30004	G2	Grave	11/8/17	Bone	C	Foot	Talus	non-facet	site2	GA/AL	63	52		Male	2530001677	467960595.9	12893.94028	1.513095222	122.5374788	HM	39																						
+30082	G3	Grave	3/13/18	Bone	C	Hand	1st distal phalanx		site1	GA/AL	63	52		Male	1100494552	115681247	10051.07993	2.346666667	440	HM	39																						
+30083	G3	Grave	3/13/18	Bone	C	Hand	1st distal phalanx		site2	GA/AL	63	52		Male	906239823.6	80232673.32	8143.115418	1.514476615	340	HM	39																						
+30048	G3	Grave	12/7/17	Bone	C	Hand	1st prox phalanx			GA/AL	63	52	hand/ bone broke	Male	3718425212	321874197.4	22201.608	1.387669163	13.62800878	HM	39																						
+30047	G3	Grave	12/7/17	Bone	C	Hand	Capitate			GA/AL	63	52		Male	6626625208	722113152.8	18444.00261	1.74291633	105.7612896	HM	46																						
+30030	G3	Grave	11/30/17	Bone	C	Hand	MC1	proximal		GA/AL	63	52		Male	1959546738	681445708.8	17209.21339	0.986243927	16.0964299	HM																							
+30031	G3	Grave	11/30/17	Bone	C	Hand	MC2			GA/AL	63	52		Male	7109165018	994080060.2	36680.09561	0.789699387	6.228974089	HM																							
+30032	G3	Grave	11/30/17	Bone	C	Hand	MC3			GA/AL	63	52	bone broke	Male	4907747851	1498617566	36687.701	0.953384052	3.334149485	HM																							
+30033	G3	Grave	11/30/17	Bone	C	Hand	MC4	distal	site1	GA/AL	63	52	bone broke	Male	2962043857	512962763.4	11117.29683	0.875633277	7.748983335	HM																							
+30060	G3	Grave	12/14/17	Bone	C	Hand	MC4	proximal	site2	GA/AL	63	52	tore glove on jagged edge; risk of contami tion	Male	5694047308	618412834.2	31637.49095	1.47029703	9.9	HM																							
+30034	G3	Grave	11/30/17	Bone	C	Hand	MC5			GA/AL	63	52		Male	4674169346	1003121663	24181.72534	1.256914879	6.757670082	HM																							
+30049	G3	Grave	12/7/17	Bone	C	Hand	Middle phalanx			GA/AL	63	52	bone broke; not enough powder	Male	8454466457	711358456.3	27759.5176	1.685366683	2.903800341	HM																							
+30066	G3	Grave	12/20/17	Bone	C	Leg	Femur	distal	site1_rep1	GA/AL	63	52		Male	6786878078	634088530.1	16713.28705	2.394285714	10.475	HM																							
+30067	G3	Grave	12/20/17	Bone	C	Leg	Femur	distal	site1_rep2	GA/AL	63	52		Male	6252615315	408672495	15408.19796	1.964539007	7.289473684	HM																							
+30068	G3	Grave	12/20/17	Bone	C	Leg	Femur	head	site2_rep1	GA/AL	63	52		Male	4083163982	3081817208	33547.48819	3.834710744	116	HM	33																						
+30069	G3	Grave	12/20/17	Bone	C	Leg	Femur	head	site2_rep2	GA/AL	63	52		Male	4594928248	2221195254	23835.91264	1.990990991	55.25	HM	33																						
+30064	G3	Grave	12/20/17	Bone	C	Leg	Femur	ms	site3_rep1	GA/AL	63	52		Male	1895787100	120114341.4	4253.061421	2.206477733	27.25	HM																							
+30065	G3	Grave	12/20/17	Bone	C	Leg	Femur	ms	site3_rep2	GA/AL	63	52		Male	2459575779	282513272.6	4483.873301	1.717171717	21.25	HM																							
+30061	G3	Grave	12/20/17	Bone	C	Leg	Fibula	ms		GA/AL	63	52		Male	5092792773	623000103.6	12210.34616	2.743362832	7.75	HM																							
+30062	G3	Grave	12/20/17	Bone	C	Leg	Patella	anterior	site1	GA/AL	63	52	right; rough anterior surface but bone fairly brittle	Male	23004957.34	34800430.78	31063.39794	1.641791045	55	HM																							
+30063	G3	Grave	12/20/17	Bone	C	Leg	Patella	posterior	site2	GA/AL	63	52	right; smooth side	Male	3033585814	579389046.1	20368.91332	1.675503712	39.5	HM																							
+30070	G3	Grave	12/20/17	Bone	C	Leg	Tibia	ms	site3_rep1	GA/AL	63	52		Male	2099033005	232889608.5	5261.8841	1.170568562	8.75	HM																							
+30071	G3	Grave	12/20/17	Bone	C	Leg	Tibia	ms	site3_rep2	GA/AL	63	52		Male	2182791888	179236042.9	5599.966252	1.31641791	11.025	HM																							
+30074	G3	Grave	12/20/17	Bone	C	Leg	Tibia	proximal/posterior metaphysis	site1_rep1	GA/AL	63	52		Male	3980140229	563756999.8	23157.94041	1.691056911	2.6	HM	43																						
+30075	G3	Grave	12/20/17	Bone	C	Leg	Tibia	proximal/posterior metaphysis	site1_rep2	GA/AL	63	52		Male	4378488127	408643554	35099.64685	1.830508475	0.675	HM	43																						
+30072	G3	Grave	12/20/17	Bone	C	Leg	Tibia	sup articular facet (left)	site2_rep1	GA/AL	63	52		Male	11360590769	495240673.2	28125.51827	3.03125	14.55	HM	43																						
+30073	G3	Grave	12/20/17	Bone	C	Leg	Tibia	sup articular facet (left)	site2_rep2	GA/AL	63	52		Male	16266507881	682378630.6	30256.46032	3.452830189	13.725	HM	43																						
+30059	G3	Grave	12/14/17	Bone	C	Lower Torso	Ilium			GA/AL	63	52		Male	6544448886	458705048.4	27992.02521	1.438095238	7.55	HM	25																						
+30057	G3	Grave	12/14/17	Bone	C	Lower Torso	Ischium			GA/AL	63	52		Male	3088921654	1794109864	18037.1143	1.727477477	19.175	HM																							
+30050	G3	Grave	12/13/17	Bone	C	Lower Torso	Lumbar			GA/AL	63	52	porous bone; dirty inside?	Male	1895750382	934133033.7	22973.01173	1.689094996	2.767249476	HM																							
+30058	G3	Grave	12/14/17	Bone	C	Lower Torso	Pubis			GA/AL	63	52	very brittle; dirty	Male	12434931.6	18233004.31	36557.28488	4.721212121	243.4375	HM																							
+bone30009	G2	Grave	11/10/17	Bone	C	Lower Torso	Rib 12			GA/AL	63	52	bone broke	Male	6236445717	1972591003	24344.01952	3.768555194	22.59068005	HM																							
+30055	G3	Grave	12/13/17	Bone	C	Lower Torso	Sacrum	ala		GA/AL	63	52		Male	4664222763	1411628164	35364.39643	2.25308642	8.69047619	HM																							
+30051	G3	Grave	12/13/17	Bone	C	Lower Torso	Thoracic			GA/AL	63	52		Male	527069691.9	37681125.34	10314.92829	1.815755862	8.99989903	HM																							
+30081	G3	Grave	12/21/17	Bone	C	Skull	Frontal			GA/AL	63	52		Male	2475795189	25546341.33	4665.871179	2.366459627	9.525	HM																							
+30076	G3	Grave	12/21/17	Bone	C	Skull	Mandible			GA/AL	63	52		Male	1718851099	187712191.4	5186.121219	1.559701493	22	HM																							
+30077	G3	Grave	12/21/17	Bone	C	Skull	Maxilla			GA/AL	63	52	Note: impossible to get more powder from this sample site without getting dirty sinus or destroying the face	Male	724847936.3	30255636.17	19444.98395	1.323706378	392.8571429	HM																							
+30078	G3	Grave	12/21/17	Bone	C	Skull	Occipital			GA/AL	63	52		Male	1797515851	13203779.36	3064.651432	1.175092478	2.3825	HM																							
+30080	G3	Grave	12/21/17	Bone	C	Skull	Parietal			GA/AL	63	52		Male	2281079773	6415125.074	4872.577379	1.381936888	3.175	HM																							
+30079	G3	Grave	12/21/17	Bone	C	Skull	Temporal			GA/AL	63	52		Male	1491444873	26168519.11	3374.409411	1.388499299	2.475	HM																							
+30052	G3	Grave	12/13/17	Bone	C	Upper Torso	Cervical	centrum	site1	GA/AL	63	52		Male	8133536147	792290897.8	29050.26076	2.555311729	25.33772402	HM																							
+30053	G3	Grave	12/13/17	Bone	C	Upper Torso	Cervical	side centrum	site2	GA/AL	63	52		Male	5445188208	490420340.1	20978.7701	1.937395163	27.50742808	HM																							
+30045	G3	Grave	12/6/17	Bone	C	Upper Torso	Clavicle	ms	site1	GA/AL	63	52		Male	4472351586	1650886314	11361.21252	1.094889454	6.081859271	HM																							
+30046	G3	Grave	12/6/17	Bone	C	Upper Torso	Clavicle	proximal	site2	GA/AL	63	52		Male	12402915318	1940322235	22838.2877	1.810362126	2.253155923	HM																							
+bone30007	G2	Grave	11/10/17	Bone	C	Upper Torso	Rib 1	distal	site1	GA/AL	63	52	could not get 0.2 g	Male	7048064271	688294505.4	17507.62008	1.198585421	11.5190952	HM																							
+bone30008	G2	Grave	11/10/17	Bone	C	Upper Torso	Rib 1	head	site2	GA/AL	63	52		Male	7800800174	2121495826	29210.9809	2.776912145	338.3205831	HM																							
+bone30005	G2	Grave	11/8/17	Bone	C	Upper Torso	Rib 7	center	site1	GA/AL	63	52		Male	5840424111	146359469.6	16449.6578	1.555420104	56.23203751	HM																							
+bone30006	G2	Grave	11/8/17	Bone	C	Upper Torso	Rib 7	head	site2	GA/AL	63	52		Male	3293418294	559050483.3	21403.30303	2.041428866	19.20546032	HM																							
+30054	G3	Grave	12/13/17	Bone	C	Upper Torso	Scapula			GA/AL	63	52		Male	1718587946	42146693.28	3823.728814	1.663366337	4.2	HM	41																						
+30056	G3	Grave	12/14/17	Bone	C	Upper Torso	Sternum	manubrium		GA/AL	63	52	lots of white on inside; adipocere?; bone was bound back together during surgery	Male	4702931697	360782071.5	19637.18292	3.492857143	1.286842105	HM																							
+PCRblank1	G1	Grave_Soil		NegControl	Seq	Blank	Blank																																				
+PCRblank2	G1	Grave_Soil		NegControl	Seq	Blank	Blank																																				
+PCRblank3	G2	Grave_Soil		NegControl	Seq	Blank	Blank																																				
+PCRblank4	G2	Grave_Soil		NegControl	Seq	Blank	Blank																																				
+PCRblank5	G3	Grave_Soil		NegControl	Seq	Blank	Blank																																				
+PCRblank6	G3	Grave_Soil		NegControl	Seq	Blank	Blank																																				
+ZymoControl	G1	Grave_Soil		PosControl	Seq	Control	Control																																				
+ZymoControl2	G2	Grave_Soil		PosControl	Seq	Control	Control																																				
+ZymoControl3	G3	Grave_Soil		PosControl	Seq	Control	Control																																				
+MGR2170005	G3	Grave_Soil		Soil	Soil	ControlG	ControlG														0	0.261	0.341591889	0.194545004	6.66	14.19	4.956076002	0.94929596	0.190802563	1.600651723	0.040128425	31.72816661	15.18082684	0.810681474	111.4579102	4.46988077	48.33998972	2.527456426	0.613665409	0.029075021			
+MGR2170007	G3	Grave_Soil		Soil	Soil	ControlG	ControlG														30	0.256	0.309155747	0.19554587	6.3	4.316	2.098515455	0.947245107	0.175402594	2.125555052	0.053937357	5.557596735	4.228807665	0.493400367	80.49046776	5.668998186	5.964241139	0.17097114	0.101172873	0.001693868			
+MGR2170001	G3	Grave_Soil		Soil	Soil	ControlS	ControlS														0	0.269	0.47616018	0.182229546	7.04	40.4	8.042685669	5.530068118	0.412244642	4.428867586	0.568909159	38.44476522	38.17789452	1.404114738	103.9690474	2.298749598	106.5085863	5.783955165	1.309647771	0.049045315			
+MGR2170003	G3	Grave_Soil		Soil	Soil	ControlS	ControlS														30	0.26	0.311812874	0.198199	7.47	21.06	2.635562897	0.851433534	0.154345231	1.08652346	0.048094489	7.716741308	14.87480551	1.03990789	26.10159543	0.895604711	6.231971091	0.438706437	0.189902116	0.002551677			
+MGR2170057	G3	Grave_Soil		Soil	Soil	Grave	Grave0														0	0.257	0.312741377	0.19577352	6.39	13.08	3.00088391	1.938649845	0.170155453	2.750802811	0.022200704	12.06425071	14.49180786	0.399098265	20.24506488	0.360528307	10.83017337	0.841321666	0.407979344	0.036333762			
+MGR2170059	G3	Grave_Soil		Soil	Soil	Grave	Grave0														0	0.255	0.308835074	0.194829742	5.73	10.26	5.345600695	2.582374066	0.197037432	2.997290648	-0.002610903	12.60748597	12.69638477	0.06854485	17.16030342	0.478571275	5.458085471	0.168856581	0.281429917	0.01597564			
+MGR3170002	G3	Grave_Soil		Soil	Soil	Grave	Grave0														0	0.262	0.330978963	0.196847589	6.39	16.28	2.689575268	1.951224723	0.158787255	1.681870472	0.023646481	27.33975681	16.76539068	1.271512338	19.5274974	0.240396748	12.04022038	0.873708873	0.47896688	0.018109346			
+MGR3170003	G3	Grave_Soil		Soil	Soil	Grave	Grave0														0	0.26	0.326332318	0.196029303	6.37	21.99	7.360544907	2.8529815	0.25071334	2.416037398	-0.000140141	188.9297725	18.09313001	1.915595613	8.291024614	0.304999886	2.522748912	0.060105064	0.217892128	0.002037945			
+MGR3170004	G3	Grave_Soil		Soil	Soil	Grave	Grave0														0	0.257	0.312491666	0.195810767	6.68	17.07	3.430815971	1.315291225	0.155729982	1.639355427	-0.045416348	19.92931523	13.55452388	0.195621678	8.215940905	0.311210151	2.415355724	0.460264208	0.163282509	0.003574402			
+MGR3170005	G3	Grave_Soil		Soil	Soil	Grave	Grave0														0	0.254	0.335072704	0.190251811	6.83	30.9	3.548077052	2.742160205	0.193330028	1.603914285	0.070512764	28.01845791	18.96275511	0.873335389	8.458148163	1.59971817	5.531039874	0.284115096	0.289322051	0.008777045			
+MGR3170006	G3	Grave_Soil		Soil	Soil	Grave	Grave30														30	0.271	0.398044405	0.193842198	6.06	31.14	5.471702074	5.578680497	0.272892381	2.88874751	0.043335451	45.12859882	81.9379747	1.185371966	23.5641774	0.933647883	1.811830913	0.267009083	0.184896123	0.006547556			
+MGR3170008	G3	Grave_Soil		Soil	Soil	Grave	Grave30														30	0.255	0.359380583	0.187585436	6.31	17.24	2.770685904	3.627974314	0.291500306	1.545829198	0.049171844	10.52245278	8.163828766	0.333597235	6.307938161	0.344925779	-1.332155793	0.137563435	0.083337627	0.005767766			
+MGR3170009	G3	Grave_Soil		Soil	Soil	Grave	Grave30														30	0.254	0.366075167	0.185934132	6.26	10.06	3.266987043	1.455701034	0.184374399	1.354748161	0.026675539	7.19913508	7.246937687	0.385060587	8.550936895	1.360667154	-0.216089266	0.108039041	0.046725341	0.00180361			
+MGR3170007	G3	Grave_Soil		Soil	Soil	Grave	Grave40														40	0.252	0.973646982	0.127682408	6.36	48.57	14.18118724	0.838774777	0.565505888	5.495502305	0.2265933	273.2856617	112.3891707	0.321501863	46.53672588	0.9219591	5.661450513	0.418490829	1.051096553	0.044438121			
+MGR3170026	G3	Grave_Soil		Soil	Soil	Grave	Grave70														70	0.257	0.512794145	0.169884317	6.55	96.31	664.811427	0.326048786	3.363357187	7.240020362	-0.039740167	93.02973993	11.59460214	1.189196673	14.9953814	0.328839062	-1.070627423	0.541258268	0.13773162	0.00198414			
+MGR3170028	G3	Grave_Soil		Soil	Soil	Grave	Grave70														70	0.3	0.459588432	0.205537392	7.36	164	999.742898	0.258182942	3.056596778	5.651499221	-0.092111791	98.13969016	14.12360444	0.604342005	215.9509933	7.974416422	13.51617532	1.514804578	0.411332367	0.003258542			
+MGR3170030	G3	Grave_Soil		Soil	Soil	Grave	Grave70														70	0.27	0.460710889	0.184841506	7.11	107.9	224.0154021	1.822628981	1.96621871	1.963047133	-0.025118167	40.61549983	4.435395032	0.761946698	81.75929125	1.71552819	8.901856926	3.422168712	0.15423363	0.01792617			
+MGR3170031	G3	Grave_Soil		Soil	Soil	Grave	Grave70														70	0.25	0.42464722	0.17548204	7.78	170.8	1078.468654	0.2284101	4.227699553	13.00175031	-0.087043644	102.0603299	28.26779721	3.188212896	256.9512807	2.392460455	25.02060355	3.320991396	0.397436432	0.031329308			
+MGR3170027	G3	Grave_Soil		Soil	Soil	Grave	Grave85														85	0.284	0.314099685	0.216117547	7.3	151.1	821.8487181	1.893576432	2.396455714	2.347728927	-0.026057117	26.73138837	3.577408029	1.597441786	27.11349321	0.549220905	1.369990606	0.229516633	0.077095846	0.00248334			
+MGR3170029	G3	Grave_Soil		Soil	Soil	Grave	Grave85														85	0.269	0.332149174	0.201929337	7.65	147.4	1525.021417	6.611099094	2.91556525	6.916471389	0.040124236	21.10439651	3.353736138	0.440507121	20.78615274	1.470223822	1.237343199	0.08343211	0.062935387	0.001435993			
+MGR3170032	G3	Grave_Soil		Soil	Soil	Grave	Grave85														85	0.269	0.358409792	0.198025663	8.02	121.1	879.4240511	1.140097165	2.967824875	6.30016549	0.003160806	23.00823937											
+MGR2170021	G3	Grave_Soil		Soil	Soil	OG0.5 m	OG0.5 m														0	0.255	0.319108806	0.193312332	6.55	21.94	7.654367285	1.431795599	0.235285382	1.541743131	0.033391184	21.02971019	15.17691612	1.150040325	47.85177321	2.167135364	13.29983607	0.438309932	0.759041534	0.009117314			
+MGR2170023	G3	Grave_Soil		Soil	Soil	OG0.5 m	OG0.5 m														30	0.261	0.238061671	0.210813408	6.22	11.34	2.599724719	0.843096432	0.135739244	1.56144573	0.025853754	4.675560033	6.095074145	1.081365726	11.68036225	0.41407066	0.423701483	0.475054125	0.11738304	0.003085236			
+MGR2170037	G3	Grave_Soil		Soil	Soil	OG0.5 m	OG0.5 m														0	0.25	0.288083895	0.194086737	6.77	21.05	3.574736408	2.84713352	0.170355159	0.99481194	0.032084027	14.84756555	20.73627813	0.71856839	16.54104734	1.758827902	6.703086655	0.156077093	0.475683464	0.00891651			
+MGR2170039	G3	Grave_Soil		Soil	Soil	OG0.5 m	OG0.5 m														30	0.258	0.240361785	0.208003828	6.86	12.19	4.400511743	1.463789692	0.142919132	0.769400698	0.068039643	10.21498802	15.91083301	0.730638554	12.25342023	1.661711538	3.906103416	0.233866986	0.238141226	0.008667464			
+MGR2170053	G3	Grave_Soil		Soil	Soil	OG0.5 m	OG0.5 m														0	0.257	0.336607311	0.192277865	6.99	38.13	5.487711704	3.675338615	0.346697168	2.092102432	0.092714066	32.0313623	31.68584711	0.94044641	25.49311715	0.509917514	19.43079018	0.643244159	1.11322218	0.018966526			
+MGR2170055	G3	Grave_Soil		Soil	Soil	OG0.5 m	OG0.5 m														30	0.26	0.230560638	0.211285809	7.16	14.7	1.968004743	0.522972565	0.097751333	0.651082246	0.013108163	10.25998998	11.97783068	0.718314535	14.09853802	0.177663321	4.056070378	0.153522272	0.235694603	0.007479428			
+3939-JMD-0018	S1	Surface		Bone	SA	Arm	Humerus			TN	50	104		Male	628742053.1		885.2968769		53.84615385																								
+3939-JMD-0019	S1	Surface		Bone	SA	Arm	Radius			TN	50	104		Male	1498461424		3672.996636		11.80952381																								
+3939-JMD-0020	S1	Surface		Bone	SA	Arm	Ulna			TN	50	104		Male	627570860.7		4753.560379		3.25																								
+3939-JMD-0039	S1	Surface		Bone	SA	Foot	1st Cuneiform			TN	50	104		Male	4037308.328		21743.23848		22.7																								
+3939-JMD-0034	S1	Surface		Bone	SA	Foot	1st distal foot phalanx			TN	50	104		Male	11338935.69		12487.65236		0																								
+3939-JMD-0033	S1	Surface		Bone	SA	Foot	1st prox foot phalanx			TN	50	104		Male	11779731446		40031.57168		24.85																								
+3939-JMD-0040	S1	Surface		Bone	SA	Foot	2nd Cuneiform			TN	50	104		Male	320013.6612		15702.86036		0.89047619																								
+3939-JMD-0041	S1	Surface		Bone	SA	Foot	3rd Cuneiform			TN	50	104		Male	99010345.3		15050.37585		36.04166667																								
+3939-JMD-0035	S1	Surface		Bone	SA	Foot	Calcaneus			TN	50	104		Male			18457.77403		78.26086957																								
+3939-JMD-0038	S1	Surface		Bone	SA	Foot	Cuboid			TN	50	104		Male			14019.21028		0																								
+3939-JMD-0028	S1	Surface		Bone	SA	Foot	MT1			TN	50	104		Male	2635253653		7788.013602		34.16666667																								
+3939-JMD-0029	S1	Surface		Bone	SA	Foot	MT2			TN	50	104		Male	1774605642		6742.100323		7.714285714																								
+3939-JMD-0030	S1	Surface		Bone	SA	Foot	MT3			TN	50	104		Male	567543530.7		2300.498581		17.175																								
+3939-JMD-0031	S1	Surface		Bone	SA	Foot	MT4			TN	50	104		Male	600388822.1		2727.884373		37.61904762																								
+3939-JMD-0032	S1	Surface		Bone	SA	Foot	MT5			TN	50	104		Male	1253808889		2716.621922		6.075																								
+3939-JMD-0036	S1	Surface		Bone	SA	Foot	Talus			TN	50	104		Male	1003434479		7980.133466		71.80555556																								
+3939-JMD-0027	S1	Surface		Bone	SA	Hand	1st distal phalanx			TN	50	104		Male	5627539461		25291.79259		477.5																								
+3939-JMD-0026	S1	Surface		Bone	SA	Hand	1st prox phalanx			TN	50	104		Male	13894839183		40994.21646		46																								
+3939-JMD-0021	S1	Surface		Bone	SA	Hand	MC1			TN	50	104		Male	1940548693		7126.187006		4.85																								
+3939-JMD-0022	S1	Surface		Bone	SA	Hand	MC2			TN	50	104		Male	1767122113		10505.99064		102.75																								
+3939-JMD-0023	S1	Surface		Bone	SA	Hand	MC3			TN	50	104		Male	15359276860		31577.74795		54.5																								
+3939-JMD-0024	S1	Surface		Bone	SA	Hand	MC4			TN	50	104		Male	11866517		7433.00606		71.5																								
+3939-JMD-0025	S1	Surface		Bone	SA	Hand	MC5			TN	50	104		Male	6001719534		5216.209808		11																								
+3939-JMD-0014	S1	Surface		Bone	SA	Leg	Femur			TN	50	104		Male	466945099.6		1357.158856		18.82																								
+3939-JMD-0016	S1	Surface		Bone	SA	Leg	Fibula			TN	50	104		Male	623375556.5		2717.475902		7.966666667																								
+3939-JMD-0017	S1	Surface		Bone	SA	Leg	Patella			TN	50	104		Male	573925.559		12083.65933		116.4583333																								
+3939-JMD-0015	S1	Surface		Bone	SA	Leg	Tibia			TN	50	104		Male	736748557.6		2649.772443		16.97916667																								
+3939-JMD-0011	S1	Surface		Bone	SA	Lower Torso	Ilium			TN	50	104		Male	8978475101		36827.37888		51.92307692																								
+3939-JMD-0012	S1	Surface		Bone	SA	Lower Torso	Ischium			TN	50	104		Male	1360403031		14954.53882		62.90322581																								
+3939-JMD-0003	S1	Surface		Bone	SA	Lower Torso	Lumbar			TN	50	104		Male	42935381.48		10465.49248		28.57142857																								
+3939-JMD-0013	S1	Surface		Bone	SA	Lower Torso	Pubis			TN	50	104		Male	709478825.4		7044.403535		92.22222222																								
+3939-JMD-0006	S1	Surface		Bone	SA	Lower Torso	Rib 12			TN	50	104		Male	655057832.2		6547.840023		22.2																								
+3939-JMD-0008	S1	Surface		Bone	SA	Lower Torso	Sacrum			TN	50	104		Male	2426562032		18585.71453		78.5																								
+3939-JMD-0042	S1	Surface		Bone	SA	Skull	Frontal			TN	50	104		Male	1505575252		1906.573598		52.72727273																								
+3939-JMD-0047	S1	Surface		Bone	SA	Skull	Mandible			TN	50	104		Male	395156144.4		7578.140847		10.77777778																								
+3939-JMD-0046	S1	Surface		Bone	SA	Skull	Maxilla			TN	50	104		Male	6772017354		34149.27514		2.495																								
+3939-JMD-0044	S1	Surface		Bone	SA	Skull	Parietal			TN	50	104		Male	1371640708		3295.975789		58.18181818																								
+3939-JMD-0043	S1	Surface		Bone	SA	Skull	Temporal			TN	50	104		Male	1016749007		3346.08824		11.54761905																								
+3939-JMD-0053	S1	Surface		Bone	SA	Tooth	mandibular 1st premolar L			TN	50	104		Male	377912814.9		722.7267945		256.8181818																								
+3939-JMD-0052	S1	Surface		Bone	SA	Tooth	mandibular canine L			TN	50	104		Male	694677911.4		970.5955387		428																								
+3939-JMD-0050	S1	Surface		Bone	SA	Tooth	maxillary 1st premolar 			TN	50	104		Male	384857752.4		900.7206913		419.5652174																								
+3939-JMD-0049	S1	Surface		Bone	SA	Tooth	maxillary canine L			TN	50	104		Male	308318217		1131.694773		621.4285714																								
+3939-JMD-0048	S1	Surface		Bone	SA	Tooth	maxillary lateral incisor L			TN	50	104		Male	271418744.8		770.3674158		650																								
+3939-JMD-0051	S1	Surface		Bone	SA	Tooth	maxillary molar 			TN	50	104		Male	956865372.8		1685.175759		1036.363636																								
+3939-JMD-0001	S1	Surface		Bone	SA	Upper Torso	Cervical			TN	50	104		Male	8948528965		14960.90285		49.76190476																								
+3939-JMD-0009	S1	Surface		Bone	SA	Upper Torso	Clavicle			TN	50	104		Male	1732217783		6872.102478		21.15																								
+3939-JMD-0004	S1	Surface		Bone	SA	Upper Torso	Rib 1			TN	50	104		Male	2811418977		22929.62392		22																								
+3939-JMD-0005	S1	Surface		Bone	SA	Upper Torso	Rib 7			TN	50	104		Male	941119654.3		3480.204019		48.86363636																								
+3939-JMD-0010	S1	Surface		Bone	SA	Upper Torso	Scapula			TN	50	104		Male	12930298264		34545.77587		7.44																								
+3939-JMD-0007	S1	Surface		Bone	SA	Upper Torso	Sternum			TN	50	104		Male	3528194751		20800.5953		31.73076923																								
+3939-JMD-0002	S1	Surface		Bone	SA	Upper Torso	Thoracic			TN	50	104		Male	1891674526		18672.76936		118																								
+3939-JMD-0123	S2	Surface		Bone	SB	Arm	Humerus			TN	63	70		Male	652156521.3		413.9567556		94.09090909																								
+3939-JMD-0124	S2	Surface		Bone	SB	Arm	Radius			TN	63	70		Male	1277912183		549.585375		10.9																								
+3939-JMD-0125	S2	Surface		Bone	SB	Arm	Ulna			TN	63	70		Male	857988882.2		524.2521331		11.02272727																								
+3939-JMD-0144	S2	Surface		Bone	SB	Foot	1st Cuneiform			TN	63	70		Male	4467235.66		34535.66047		50.86956522																								
+3939-JMD-0139	S2	Surface		Bone	SB	Foot	1st distal foot phalanx			TN	63	70		Male	0		21421.41911		29.76190476																								
+3939-JMD-0138	S2	Surface		Bone	SB	Foot	1st prox foot phalanx			TN	63	70		Male	22870682348		40715.73024		55																								
+3939-JMD-0145	S2	Surface		Bone	SB	Foot	2nd Cuneiform			TN	63	70		Male	15920201079		16420.06518		926																								
+3939-JMD-0146	S2	Surface		Bone	SB	Foot	3rd Cuneiform			TN	63	70		Male	6779662525		20579.19032		664.2857143																								
+3939-JMD-0140	S2	Surface		Bone	SB	Foot	Calcaneus			TN	63	70		Male	2136388511		4635.524642		295																								
+3939-JMD-0143	S2	Surface		Bone	SB	Foot	Cuboid			TN	63	70		Male	5477024445		19719.7867		404.1666667																								
+3939-JMD-0133	S2	Surface		Bone	SB	Foot	MT1			TN	63	70		Male	1420767172		12508.92386		38																								
+3939-JMD-0134	S2	Surface		Bone	SB	Foot	MT2			TN	63	70		Male	11830555344		6914.427512		211.9047619																								
+3939-JMD-0135	S2	Surface		Bone	SB	Foot	MT3			TN	63	70		Male	1740836733		2947.669305		112.3809524																								
+3939-JMD-0136	S2	Surface		Bone	SB	Foot	MT4			TN	63	70		Male	1999122686		3027.911798		156																								
+3939-JMD-0137	S2	Surface		Bone	SB	Foot	MT5			TN	63	70		Male	1855780971		4388.356518		146.25																								
+3939-JMD-0142	S2	Surface		Bone	SB	Foot	Navicular			TN	63	70		Male	280883274.8		24779.62086		43.69565217																								
+3939-JMD-0141	S2	Surface		Bone	SB	Foot	Talus			TN	63	70		Male	13652957258		32961.84609		423.8095238																								
+3939-JMD-0132	S2	Surface		Bone	SB	Hand	1st distal phalanx			TN	63	70		Male	2124110914		1662.189775		386.8421053																								
+3939-JMD-0131	S2	Surface		Bone	SB	Hand	1st prox phalanx			TN	63	70		Male	7035281618		2836.60905		72.61904762																								
+3939-JMD-0162	S2	Surface		Bone	SB	Hand	Capitate			TN	63	70		Male	14186893435		45255.99075		179.0909091																								
+3939-JMD-0163	S2	Surface		Bone	SB	Hand	Capitate			TN	63	70		Male	19698637307		25510.72375		213.0952381																								
+3939-JMD-0164	S2	Surface		Bone	SB	Hand	Capitate			TN	63	70		Male	1676846117		2929.055947		181.9047619																								
+3939-JMD-0126	S2	Surface		Bone	SB	Hand	MC1			TN	63	70		Male	3658781368		1915.653663		46.45833333																								
+3939-JMD-0127	S2	Surface		Bone	SB	Hand	MC2			TN	63	70		Male	959221699		364.7959184		46.42857143																								
+3939-JMD-0128	S2	Surface		Bone	SB	Hand	MC3			TN	63	70		Male	7504955560		1067.497711		257.1428571																								
+3939-JMD-0129	S2	Surface		Bone	SB	Hand	MC4			TN	63	70		Male	8161576513		2737.807707		201.9230769																								
+3939-JMD-0130	S2	Surface		Bone	SB	Hand	MC5			TN	63	70		Male	801280623.2		333.8269345		112.3809524																								
+3939-JMD-0119	S2	Surface		Bone	SB	Leg	Femur			TN	63	70		Male	418594145.7		200.8104033		36.04166667																								
+3939-JMD-0121	S2	Surface		Bone	SB	Leg	Fibula			TN	63	70		Male	1224200587		1066.07904		42.5																								
+3939-JMD-0122	S2	Surface		Bone	SB	Leg	Patella			TN	63	70		Male	4669732159		4687.689408		107.6																								
+3939-JMD-0120	S2	Surface		Bone	SB	Leg	Tibia			TN	63	70		Male	1235589157		1136.766268		105.6818182																								
+3939-JMD-0116	S2	Surface		Bone	SB	Lower Torso	Ilium			TN	63	70		Male	6865837894		13723.35092		125.25																								
+3939-JMD-0117	S2	Surface		Bone	SB	Lower Torso	Ischium			TN	63	70		Male	1838904231		5045.125289		68.47826087																								
+3939-JMD-0108	S2	Surface		Bone	SB	Lower Torso	Lumbar			TN	63	70		Male	15638921206		30803.82151		46.53846154																								
+3939-JMD-0118	S2	Surface		Bone	SB	Lower Torso	Pubis			TN	63	70		Male	9134215094		8110.601206		104.5																								
+3939-JMD-0111	S2	Surface		Bone	SB	Lower Torso	Rib 12			TN	63	70		Male	2244736107		5745.613885		28.40909091																								
+3939-JMD-0113	S2	Surface		Bone	SB	Lower Torso	Sacrum			TN	63	70		Male	6134097228		11366.09824		102.4137931																								
+3939-JMD-0147	S2	Surface		Bone	SB	Skull	Frontal			TN	63	70		Male	1666381083		2441.065874		21.34782609																								
+3939-JMD-0152	S2	Surface		Bone	SB	Skull	Mandible			TN	63	70		Male	1879127778		2728.530737		150.8333333																								
+3939-JMD-0151	S2	Surface		Bone	SB	Skull	Maxilla			TN	63	70		Male	2232572366		16181.83805		192.7272727																								
+3939-JMD-0150	S2	Surface		Bone	SB	Skull	Occipital			TN	63	70		Male	1542281496		1283.280849		17.17307692																								
+3939-JMD-0149	S2	Surface		Bone	SB	Skull	Parietal			TN	63	70		Male	9133135741		6810.169203		37.85714286																								
+3939-JMD-0148	S2	Surface		Bone	SB	Skull	Temporal			TN	63	70		Male	9380118801		12242.07169		35.71428571																								
+3939-JMD-0158	S2	Surface		Bone	SB	Tooth	mandibular 1st premolar L			TN	63	70		Male	708590684		497.0111288		98																								
+3939-JMD-0157	S2	Surface		Bone	SB	Tooth	mandibular canine L			TN	63	70		Male	281447914.5		201.2756454		69.76190476																								
+3939-JMD-0159	S2	Surface		Bone	SB	Tooth	mandibular lateral incisor R			TN	63	70		Male	282738743.3		979.6275267		540.4761905																								
+3939-JMD-0160	S2	Surface		Bone	SB	Tooth	mandibular lateral incisor R			TN	63	70		Male	403920726.9		351.1802723		14.17391304																								
+3939-JMD-0161	S2	Surface		Bone	SB	Tooth	mandibular lateral incisor R			TN	63	70		Male	608709167.6		540.7695511		17.45238095																								
+3939-JMD-0155	S2	Surface		Bone	SB	Tooth	maxillary 1st premolar 			TN	63	70		Male	294395135.9		190.629495		69.52380952																								
+3939-JMD-0154	S2	Surface		Bone	SB	Tooth	maxillary canine L			TN	63	70		Male	371713623.2		285.8451366		66.36363636																								
+3939-JMD-0153	S2	Surface		Bone	SB	Tooth	maxillary lateral incisor L			TN	63	70		Male	444276385.4		345.689406		91.81818182																								
+3939-JMD-0156	S2	Surface		Bone	SB	Tooth	maxillary molar 			TN	63	70		Male	407089951.1		428.3935196		151.6666667																								
+3939-JMD-0106	S2	Surface		Bone	SB	Upper Torso	Cervical			TN	63	70		Male	11278001.29		7540.491896		70																								
+3939-JMD-0114	S2	Surface		Bone	SB	Upper Torso	Clavicle			TN	63	70		Male	975883812.3		1748.361797		45.76923077																								
+3939-JMD-0109	S2	Surface		Bone	SB	Upper Torso	Rib 1			TN	63	70		Male	17869863480		38697.43686		477.5																								
+3939-JMD-0110	S2	Surface		Bone	SB	Upper Torso	Rib 7			TN	63	70		Male	2583515396		8464.783803		29.04761905																								
+3939-JMD-0115	S2	Surface		Bone	SB	Upper Torso	Scapula			TN	63	70		Male	1209299855		2603.6697		21.60714286																								
+3939-JMD-0112	S2	Surface		Bone	SB	Upper Torso	Sternum			TN	63	70		Male	19998315586		45766.36512		33.33333333																								
+3939-JMD-0107	S2	Surface		Bone	SB	Upper Torso	Thoracic			TN	63	70		Male	7614477381		30148.45727		23.26190476																								
+3939-JMD-0070	S1	Surface		Bone	SC	Arm	Humerus			TN	69	127		Male	807555649.4		1117.886652		4.947368421																								
+3939-JMD-0071	S1	Surface		Bone	SC	Arm	Radius			TN	69	127		Male	1917870259		2503.077652		6.022727273																								
+3939-JMD-0072	S1	Surface		Bone	SC	Arm	Ulna			TN	69	127		Male	1114185524		2577.17803		3.880952381																								
+3939-JMD-0091	S2	Surface		Bone	SC	Foot	1st Cuneiform			TN	69	127		Male	11414505369		22121.66588		281.25																								
+3939-JMD-0086	S2	Surface		Bone	SC	Foot	1st distal foot phalanx			TN	69	127		Male	17010373035		22800.20781		44.75																								
+3939-JMD-0085	S2	Surface		Bone	SC	Foot	1st prox foot phalanx			TN	69	127		Male	12768951474		37823.94606		102.6666667																								
+3939-JMD-0092	S2	Surface		Bone	SC	Foot	2nd Cuneiform			TN	69	127		Male	17516450571		19987.69597		414.5833333																								
+3939-JMD-0093	S2	Surface		Bone	SC	Foot	3rd Cuneiform			TN	69	127		Male	11312513781		51602.36193		0																								
+3939-JMD-0087	S2	Surface		Bone	SC	Foot	Calcaneus			TN	69	127		Male	13009887062		21005.63475		58.94736842																								
+3939-JMD-0090	S2	Surface		Bone	SC	Foot	Cuboid			TN	69	127		Male	8224589408		27679.82097		257.4074074																								
+3939-JMD-0080	S1	Surface		Bone	SC	Foot	MT1			TN	69	127		Male	2221775744		9433.940095		11.38095238																								
+3939-JMD-0081	S1	Surface		Bone	SC	Foot	MT2			TN	69	127		Male	7568900060		8521.274877		153.2142857																								
+3939-JMD-0082	S1	Surface		Bone	SC	Foot	MT3			TN	69	127		Male	2434227111		5178.839486		160.7142857																								
+3939-JMD-0083	S2	Surface		Bone	SC	Foot	MT4			TN	69	127		Male	20623634452		23340.36546		100.952381																								
+3939-JMD-0084	S2	Surface		Bone	SC	Foot	MT5			TN	69	127		Male	11765914180		20152.34495		211.3636364																								
+3939-JMD-0089	S2	Surface		Bone	SC	Foot	Navicular			TN	69	127		Male	20989448354		25933.53599		493.4782609																								
+3939-JMD-0088	S2	Surface		Bone	SC	Foot	Talus			TN	69	127		Male	12588472251		30659.20636		326.3888889																								
+3939-JMD-0079	S1	Surface		Bone	SC	Hand	1st distal phalanx			TN	69	127		Male	15303721611		16802.36925		478.2608696																								
+3939-JMD-0078	S1	Surface		Bone	SC	Hand	1st prox phalanx			TN	69	127		Male	15176048393		32902.53314		11.3																								
+3939-JMD-0073	S1	Surface		Bone	SC	Hand	MC1			TN	69	127		Male	14742772546		13359.8828		27.39130435																								
+3939-JMD-0074	S1	Surface		Bone	SC	Hand	MC2			TN	69	127		Male	19784562184		26704.37848		26.08695652																								
+3939-JMD-0075	S1	Surface		Bone	SC	Hand	MC3			TN	69	127		Male	16854639753		19596.35895		34.54545455																								
+3939-JMD-0076	S1	Surface		Bone	SC	Hand	MC4			TN	69	127		Male	19228031210		18158.33684		108.3333333																								
+3939-JMD-0077	S1	Surface		Bone	SC	Hand	MC5			TN	69	127		Male	2024809956		4407.778065		49.09090909																								
+3939-JMD-0066	S1	Surface		Bone	SC	Leg	Femur			TN	69	127		Male	514564682.3		1025.259387		19.39130435																								
+3939-JMD-0068	S1	Surface		Bone	SC	Leg	Fibula			TN	69	127		Male	2688318846		3535.421176		9.428571429																								
+3939-JMD-0069	S1	Surface		Bone	SC	Leg	Patella			TN	69	127		Male	18270288854		36868.11237		128																								
+3939-JMD-0067	S1	Surface		Bone	SC	Leg	Tibia			TN	69	127		Male	1815007117		3011.832111		17.66666667																								
+3939-JMD-0063	S1	Surface		Bone	SC	Lower Torso	Ilium			TN	69	127		Male	2840687038		38305.9511		62.40740741																								
+3939-JMD-0064	S1	Surface		Bone	SC	Lower Torso	Ischium			TN	69	127		Male	12639237886		16391.47096		55.4																								
+3939-JMD-0056	S1	Surface		Bone	SC	Lower Torso	Lumbar			TN	69	127		Male	28685418.58		10325.79515		14.69047619																								
+3939-JMD-0065	S1	Surface		Bone	SC	Lower Torso	Pubis			TN	69	127		Male	18694750425		17860.10276		50.27777778																								
+3939-JMD-0059	S1	Surface		Bone	SC	Lower Torso	Rib 12			TN	69	127		Male	89347372.82		15876.80713		81.5																								
+3939-JMD-0060	S1	Surface		Bone	SC	Lower Torso	Sacrum			TN	69	127		Male	34352861.55		21058.6619		30.45454545																								
+3939-JMD-0094	S2	Surface		Bone	SC	Skull	Frontal			TN	69	127		Male	408971648.5		434.0143234		48.2																								
+3939-JMD-0099	S2	Surface		Bone	SC	Skull	Mandible			TN	69	127		Male	707700836.4		1498.846589		3																								
+3939-JMD-0098	S2	Surface		Bone	SC	Skull	Maxilla			TN	69	127		Male	449138713.5		9368.611006		77.25																								
+3939-JMD-0097	S2	Surface		Bone	SC	Skull	Occipital			TN	69	127		Male	696242987.1		760.1188233		2.073809524																								
+3939-JMD-0096	S2	Surface		Bone	SC	Skull	Parietal			TN	69	127		Male	424837286.4		846.6379324		6.413043478																								
+3939-JMD-0095	S2	Surface		Bone	SC	Skull	Temporal			TN	69	127		Male	733041640.7		4947.794949		2.833333333																								
+3939-JMD-0105	S2	Surface		Bone	SC	Tooth	mandibular 1st premolar L			TN	69	127		Male	257248444.2		321.1868434		23.04347826																								
+3939-JMD-0104	S2	Surface		Bone	SC	Tooth	mandibular canine L			TN	69	127		Male	219226880.5		301.5197204		36.81818182																								
+3939-JMD-0102	S2	Surface		Bone	SC	Tooth	maxillary 1st premolar 			TN	69	127		Male	230788883.7		303.7742343		22.17391304																								
+3939-JMD-0101	S2	Surface		Bone	SC	Tooth	maxillary canine L			TN	69	127		Male	212793354.1		231.3230305		43.16666667																								
+3939-JMD-0100	S2	Surface		Bone	SC	Tooth	maxillary lateral incisor L			TN	69	127		Male	292801140.4		369.9359216		104.4																								
+3939-JMD-0103	S2	Surface		Bone	SC	Tooth	maxillary molar 			TN	69	127		Male	604774291.3		725.7739393		73.26086957																								
+3939-JMD-0054	S1	Surface		Bone	SC	Upper Torso	Cervical			TN	69	127		Male	10612616.91		13278.44496		7.227272727																								
+3939-JMD-0061	S1	Surface		Bone	SC	Upper Torso	Clavicle			TN	69	127		Male	1007314071		2274.559834		44.16666667																								
+3939-JMD-0057	S1	Surface		Bone	SC	Upper Torso	Rib 1			TN	69	127		Male	14367928.59		6743.810501		140.75																								
+3939-JMD-0058	S1	Surface		Bone	SC	Upper Torso	Rib 7			TN	69	127		Male	2314893230		5934.940551		51.75																								
+3939-JMD-0062	S1	Surface		Bone	SC	Upper Torso	Scapula			TN	69	127		Male	1051470164		13102.68165		20.59090909																								
+3939-JMD-0055	S1	Surface		Bone	SC	Upper Torso	Thoracic			TN	69	127		Male	681396933.3		12306.875		80.6																								
